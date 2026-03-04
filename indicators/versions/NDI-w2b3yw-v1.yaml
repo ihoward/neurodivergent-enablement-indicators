@@ -1,0 +1,75 @@
+id: NDI-w2b3yw-v1
+concept_id: NDI-w2b3yw
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe hot-desking, hotel seating, or lack of assigned workspace
+      as a source of frustration, instability, or daily overhead.
+    - >
+      Office design descriptions in employer profiles or press coverage emphasize
+      activity-based working, fully flexible seating, or elimination of assigned desks
+      without mention of a stable home-base provision.
+    - >
+      Fully remote policies provide a full mitigation: employees with stable home setups
+      have effective workspace permanence.
+  declared:
+    - >
+      Organization publicly states that employees have assigned or semi-assigned workspaces,
+      or that a consistent home-base arrangement is provided within a hybrid model.
+    - >
+      Facilities or workplace policy documentation describes workspace assignment or
+      reservation practices that provide a consistent base for employees.
+  validated:
+    - >
+      Accredited verifier confirms: (1) employees have access to a designated or
+      consistently reservable workspace, (2) hot-desking is not the sole workspace
+      model for all employees, (3) employees who require workspace consistency can
+      access it without medical justification.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - careers_page
+    - news_coverage
+    - job_postings
+  declared:
+    - employee_handbook
+    - facilities_documentation
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - facilities_configuration_documentation
+
+citations:
+  supporting:
+    - >
+      Elsbach, K. D. (2003). Relating physical environment to self-categorizations: Identity
+      threat and affirmation in a non-territorial office space. Administrative Science
+      Quarterly, 48(4), 622–654. [Documents psychological costs of hot-desking and
+      non-territorial workspace on identity and belonging.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      van der Voordt, D. J. M. (2004). Productivity and employee satisfaction in flexible
+      workplaces. Journal of Corporate Real Estate, 6(2), 133–148. [Notes that some
+      employees prefer flexible seating for variety and social variety — hot-desking is
+      not uniformly negative for all employee populations.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  "Hot desking" and "no assigned desk" are searchable terms in review data. Note that
+  fully remote organizations satisfy this indicator through home environment control.
+  Hybrid organizations require a case-by-case assessment of what the "office" component
+  looks like.

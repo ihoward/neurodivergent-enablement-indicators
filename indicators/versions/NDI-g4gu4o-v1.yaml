@@ -1,0 +1,71 @@
+id: NDI-g4gu4o-v1
+concept_id: NDI-g4gu4o
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews referencing missed enrollment windows, lost benefits, or
+      compliance failures due to unclear or unannounced deadlines.
+    - >
+      Annual reports or HR disclosures that reference employee self-service tooling
+      for benefits administration may indicate systematic reminder infrastructure.
+  declared:
+    - >
+      Organization publicly states that automated reminders are sent before administrative
+      deadlines (benefits enrollment, compliance training, performance review submissions).
+    - >
+      Employee handbook or HR policy describes a process for requesting extensions
+      or a grace window for missed administrative deadlines.
+  validated:
+    - >
+      Accredited verifier confirms: (1) reminder system is operational and sends
+      notifications at defined intervals before deadlines, (2) a documented extension or
+      grace pathway exists, (3) extension requests are processed without requiring
+      medical justification.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - indeed_reviews
+    - annual_reports
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - benefits_documentation
+  validated:
+    - internal_policy_documents
+    - operational_data
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Barkley, R. A. (2012). Executive Functions: What They Are, How They Work, and Why They
+      Evolved. Guilford Press. [Establishes time-blindness and prospective memory difficulty
+      as core executive function challenges relevant to deadline management.]
+    - >
+      Herd, P., & Moynihan, D. P. (2019). Administrative Burden: Policymaking by Other Means.
+      Russell Sage Foundation. [Deadline-related failures as an administrative burden outcome.]
+    - >
+      Thaler, R. H., & Sunstein, C. R. (2008). Nudge. Yale University Press. [Timely reminders
+      as a behaviorally informed intervention to improve compliance without increasing burden.]
+  dissenting:
+    - >
+      Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review.
+      Psychological Bulletin, 133(1), 65–94. [Reminds that reminders alone may not address
+      underlying task-initiation difficulties; grace periods can displace rather than solve
+      executive function barriers for some individuals.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  Most inferred evidence for this indicator will come from employee review complaints
+  about "missed" deadlines due to poor communication rather than intent. Look specifically
+  for clusters around annual enrollment periods. Validated evidence requires confirmation
+  that reminder systems are actually operational, not just promised.

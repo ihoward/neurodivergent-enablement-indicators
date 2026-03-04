@@ -1,0 +1,69 @@
+id: NDI-teuy7w-v1
+concept_id: NDI-teuy7w
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews referencing inability to focus due to constant notification
+      sounds, chat pings, or alert interruptions from organizational tooling.
+    - >
+      Organization's standard tooling (Slack, Teams, Jira, monitoring systems) — where
+      public documentation is available — uses audio-on defaults without documented
+      user override mechanisms.
+  declared:
+    - >
+      Organization publicly references a "notification hygiene" policy, focus time culture,
+      or explicit support for notification configuration in its ways-of-working documentation.
+    - >
+      IT or tooling policy documentation accessible to employees describes user-configurable
+      notification settings as a supported configuration, not an unsupported deviation.
+  validated:
+    - >
+      Accredited verifier confirms: (1) primary communication platforms support user-level
+      audio notification configuration, (2) no organizational policy mandates audio-on
+      defaults without override, (3) DND or focus mode functionality is accessible to
+      all employees.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+  declared:
+    - employee_handbook
+    - it_policy_documentation
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - it_system_configuration_documentation
+
+citations:
+  supporting:
+    - >
+      Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work. CHI 2008. ACM.
+    - >
+      Leroy, S. (2009). Why is it so hard to do my work? OBHDP, 109(2), 168–181.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Mazmanian, M., Orlikowski, W. J., & Yates, J. (2013). The autonomy paradox: The
+      implications of mobile email devices for knowledge professionals. Organization Science,
+      24(5), 1337–1357. [Notes that configurable notification control may increase availability
+      expectations — configuring off may create social penalties in high-responsiveness cultures.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  This indicator is primarily validated via tooling configuration verification. Inferred
+  signals are weaker since notification complaints may not distinguish audio from visual
+  interruptions. Focus on whether the organization's culture supports notification reduction,
+  not just whether the technical capability exists.

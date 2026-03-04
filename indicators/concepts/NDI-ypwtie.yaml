@@ -1,0 +1,20 @@
+id: NDI-ypwtie
+normalized_name: "expense processes minimize documentation burden"
+
+title: Expense processes minimize documentation burden
+
+description: |
+  The organization designs expense reimbursement and related financial processes to reduce
+  the documentation burden on employees. Per-diem options, simplified submission workflows,
+  and proportionate receipt requirements are preferred over exhaustive multi-document
+  submission processes. Cognitive overhead of compliance is treated as a real cost.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Receipt-hunting, complex categorization, and multi-step approval chains
+  impose disproportionate executive function demands. Per-diem or flat-rate approaches
+  remove the working memory and organizational load associated with detailed expense tracking.

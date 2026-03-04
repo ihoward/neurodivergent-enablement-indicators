@@ -1,0 +1,47 @@
+taxonomy_id,node_id,node_type,label
+NDT-0.1.0C-NDP-seed,NEI-root,root,NEI
+NDT-0.1.0C-NDP-seed,NDT-p3wupm,domain,Administrative Accessibility (Procedural Load)
+NDT-0.1.0C-NDP-seed,NDT-o4kzv6,domain,Performance & Evaluation Fairness
+NDT-0.1.0C-NDP-seed,NDT-d4vwtp,domain,Role Clarity & Boundary Governance
+NDT-0.1.0C-NDP-seed,NDT-cqb523,domain,Decision Governance (Formal vs Informal Power)
+NDT-0.1.0C-NDP-seed,NDT-gwkyu4,domain,Predictability & Change Management
+NDT-0.1.0C-NDP-seed,NDT-fe7di5,domain,Sensory Environment & Noise Management
+NDT-0.1.0C-NDP-seed,NDT-mcvv7l,domain,Workspace Stability & Continuity
+NDT-0.1.0C-NDP-seed,NDT-z57uk7,domain,Cultural Norms & Conformity Signalling
+NDT-0.1.0C-NDP-seed,NDT-fuctyf,domain,Hiring & Structural Pathway Diversity
+NDT-0.1.0C-NDP-seed,NDT-6ji4xt,domain,Methodological Integrity & Evidence Grounding
+NDT-0.1.0C-NDP-seed,NDT-3h2fny,domain,Support Infrastructure & Advisory Access
+NDT-0.1.0C-NDP-seed,NDT-qawrjs,domain,Procedural Justice (Inquiries / Accusations)
+NDT-0.1.0C-NDP-seed,NDT-z4wtbl,domain,Experiential Signals (Inferred Layer)
+NDT-0.1.0C-NDP-seed,NDT-bw4uzj,domain,Communication Modality & Processing
+NDT-0.1.0C-NDP-seed,NDT-wnu65q,domain,Cognitive Load & Work Structuring
+NDT-0.1.0C-NDP-seed,NDI-ypwtie,indicator,Expense processes minimize documentation burden
+NDT-0.1.0C-NDP-seed,NDI-kjsiny,indicator,Administrative processes minimize multi-step complexity
+NDT-0.1.0C-NDP-seed,NDI-mubms7,indicator,Documentation requirements scale proportionally to risk
+NDT-0.1.0C-NDP-seed,NDI-g4gu4o,indicator,Administrative deadlines include reminders or grace mechanisms
+NDT-0.1.0C-NDP-seed,NDI-v3a4ss,indicator,Multi-rater review processes avoid subjective dominance
+NDT-0.1.0C-NDP-seed,NDI-fb7h5v,indicator,Performance evaluations prioritize output and utility over stylistic norms
+NDT-0.1.0C-NDP-seed,NDI-fumd3q,indicator,Performance evaluations reduce subjectivity through structured criteria
+NDT-0.1.0C-NDP-seed,NDI-oosjha,indicator,Feedback is proportionate to performance and grounded in specific examples
+NDT-0.1.0C-NDP-seed,NDI-g4e5z4,indicator,Bias mitigation safeguards are embedded in evaluation processes
+NDT-0.1.0C-NDP-seed,NDI-x77aga,indicator,Role clarity and boundary governance prevent unsolicited cross-organizational intrusion
+NDT-0.1.0C-NDP-seed,NDI-iuc2r5,indicator,Defined work intake pathways exist and are consistently respected
+NDT-0.1.0C-NDP-seed,NDI-sxflss,indicator,Cross-functional scope overlap is actively governed and resolved
+NDT-0.1.0C-NDP-seed,NDI-su335j,indicator,Decision authority is explicit where formal power and informal influence diverge
+NDT-0.1.0C-NDP-seed,NDI-ow2t74,indicator,Priority-setting authority is explicitly defined and accessible
+NDT-0.1.0C-NDP-seed,NDI-mmp2kt,indicator,Material changes to work arrangements are communicated with advance notice
+NDT-0.1.0C-NDP-seed,NDI-ydxjih,indicator,Planning and review cadence is stable and defined
+NDT-0.1.0C-NDP-seed,NDI-edqojx,indicator,Manager transitions are treated as material work environment changes
+NDT-0.1.0C-NDP-seed,NDI-xtjoiv,indicator,Workplace noise and auditory disruption are actively mitigated
+NDT-0.1.0C-NDP-seed,NDI-teuy7w,indicator,Audio notifications and alert systems are user-configurable
+NDT-0.1.0C-NDP-seed,NDI-w2b3yw,indicator,Employees have a consistent designated workspace home base
+NDT-0.1.0C-NDP-seed,NDI-jluxp4,indicator,Workspace and location transitions are managed with advance notice
+NDT-0.1.0C-NDP-seed,NDI-g7i2ad,indicator,Culture messaging avoids narrow conformity signalling and culture-fit boasting
+NDT-0.1.0C-NDP-seed,NDI-yatlql,indicator,Hiring patterns and signals avoid implicit bias toward behavioral sameness
+NDT-0.1.0C-NDP-seed,NDI-vfm7gb,indicator,Organizational assessments rely on indicators grounded in methodologically sound evidence
+NDT-0.1.0C-NDP-seed,NDI-yz5v2j,indicator,Coaching and advisory support is accessible without neurodivergent disclosure
+NDT-0.1.0C-NDP-seed,NDI-rftx3v,indicator,Inquiries and accusations are handled with procedural fairness
+NDT-0.1.0C-NDP-seed,NDI-qqcvqh,indicator,Inferred signal — recurring administrative burden complaints in employee reviews
+NDT-0.1.0C-NDP-seed,NDI-xqahn3,indicator,Inferred signal — recurring subjective evaluation complaints in employee reviews
+NDT-0.1.0C-NDP-seed,NDI-wdawm6,indicator,Inferred signal — recurring role ambiguity and unclear ownership complaints in employee reviews
+NDT-0.1.0C-NDP-seed,NDI-lhkpps,indicator,Inferred signal — recurring noise and distraction complaints in employee reviews

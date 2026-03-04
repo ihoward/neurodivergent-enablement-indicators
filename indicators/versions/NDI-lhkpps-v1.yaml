@@ -1,0 +1,58 @@
+id: NDI-lhkpps-v1
+concept_id: NDI-lhkpps
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Across a statistically meaningful sample (minimum 20 reviews from the prior 24 months),
+      a notable proportion (suggested threshold: ≥15%) of reviews reference noise, open-plan
+      distraction, inability to concentrate, lack of quiet space, or sensory overload.
+    - >
+      Review language includes phrases such as: "too loud," "open plan is a nightmare," "can't
+      focus," "constant interruptions," "no quiet space," "distracting," "sensory overload."
+    - >
+      Pattern is consistent across multiple review platforms and is not primarily explained
+      by a single office renovation event.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+
+citations:
+  supporting:
+    - >
+      Kim, J., & de Dear, R. (2013). Workspace satisfaction: The privacy-communication
+      trade-off in open-plan offices. Journal of Environmental Psychology, 36, 18–26.
+    - >
+      Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work. CHI 2008. ACM.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Luca, M. (2011). Reviews, reputation, and revenue. Harvard Business School Working
+      Paper 12-016. [Platform bias caveat.]
+    - >
+      Bodin Danielsson, C., & Bodin, L. (2008). Office type in relation to health, well-being,
+      and job satisfaction among employees. Environment and Behavior, 40(5), 636–668.
+      [Notes that noise perception varies significantly by task type and individual difference —
+      dissent against interpreting review noise complaints as uniform across all employee roles.]
+
+community_sources:
+  - glassdoor
+  - blind
+  - indeed
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/sensoryprocessing
+  - reddit:r/neurodiversity
+
+implementation_notes: |
+  Cross-reference with structural sensory environment indicators (S1–S2) and workspace
+  stability indicators (W1–W2) for convergent validity. Noise complaint patterns in reviews
+  are among the most commonly detectable inferred signals in this framework. Remote/hybrid
+  policy changes may cause review patterns to shift — note review dates relative to
+  workplace policy announcements.

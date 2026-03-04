@@ -1,0 +1,21 @@
+id: NDI-kjsiny
+normalized_name: "administrative processes minimize multistep complexity"
+
+title: Administrative processes minimize multi-step complexity
+
+description: |
+  The organization designs internal administrative processes — including forms, approvals,
+  scheduling, and compliance tasks — to minimize the number of sequential steps required.
+  Processes are documented end-to-end, with each step clearly described and logically ordered.
+  Unnecessary handoffs, parallel tracks, and undocumented prerequisites are eliminated.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Multi-step processes with hidden dependencies or undocumented prerequisites
+  impose substantial working memory and task-switching load. Simplification reduces the
+  frequency of task abandonment, errors, and support-seeking that disproportionately affect
+  employees with ADHD, autism, and related executive function profiles.

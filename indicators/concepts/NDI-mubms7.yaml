@@ -1,0 +1,20 @@
+id: NDI-mubms7
+normalized_name: "documentation requirements scale proportionally to risk"
+
+title: Documentation requirements scale proportionally to risk
+
+description: |
+  The organization applies documentation and approval burdens in proportion to the actual
+  risk or dollar value of the action being taken. Low-risk, low-value items do not require
+  the same compliance overhead as high-risk decisions. Blanket documentation rules that
+  ignore risk level are treated as a design failure.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Uniform high documentation burdens regardless of risk penalize employees
+  who have difficulty sustaining multi-step compliance routines. Risk-proportionate design
+  ensures that the heaviest processes apply only where the cost-benefit ratio justifies them.

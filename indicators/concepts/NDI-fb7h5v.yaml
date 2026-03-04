@@ -1,0 +1,22 @@
+id: NDI-fb7h5v
+normalized_name: "evaluations prioritize output utility over stylistic norms"
+
+title: Performance evaluations prioritize output and utility over stylistic norms
+
+description: |
+  The organization's performance evaluation criteria emphasize the quality, utility, and
+  impact of work outputs rather than conformance to stylistic or behavioral norms. Criteria
+  such as communication style, interpersonal presence, and cultural fit are either absent
+  from formal evaluation rubrics or defined with explicit, observable anchors. Employees
+  are assessed on what they produce and accomplish, not how they present while doing it.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Style-based evaluation criteria systematically disadvantage autistic,
+  ADHD, and otherwise neurodivergent employees whose communication, eye contact, or
+  social presentation may differ from majority norms while their work output is equal
+  or superior.

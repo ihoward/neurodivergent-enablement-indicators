@@ -1,0 +1,84 @@
+id: NDI-rftx3v-v1
+concept_id: NDI-rftx3v
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Legal filings, EEOC charges, or news reports documenting irregular, inconsistent,
+      or retaliatory investigation processes within the organization.
+    - >
+      Employee reviews describing disciplinary or investigation processes as opaque,
+      one-sided, biased, or lacking opportunity for the affected party to respond.
+    - >
+      Reviews describing retaliation or negative consequences following complaints or
+      grievance submissions.
+  declared:
+    - >
+      Organization publicly describes its grievance, investigation, and disciplinary
+      procedures in enough detail to confirm: (a) affected parties are informed of
+      process steps, (b) a response opportunity exists, (c) an impartial review is
+      conducted, (d) a written outcome is provided.
+    - >
+      Code of conduct or HR policy documentation describes consistent, documented
+      investigation standards.
+  validated:
+    - >
+      Accredited verifier confirms: (1) affected parties receive written notice of
+      process steps, (2) a meaningful response opportunity exists before final
+      determination, (3) investigator independence is documented, (4) written
+      outcomes with rationale are provided, (5) the process is applied consistently
+      across employee levels.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - legal_filings
+    - news_coverage
+    - regulatory_filings
+  declared:
+    - employee_handbook
+    - code_of_conduct
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - third_party_audits
+    - investigation_records
+
+citations:
+  supporting:
+    - >
+      Lind, E. A., & Tyler, T. R. (1988). The Social Psychology of Procedural Justice. Plenum.
+    - >
+      Colquitt, J. A. (2001). On the dimensionality of organizational justice.
+      Journal of Applied Psychology, 86(3), 386–400.
+    - >
+      Leventhal, G. S. (1980). What should be done with equity theory? In K. J. Gergen,
+      M. S. Greenberg, & R. H. Willis (Eds.), Social Exchange. Springer.
+      [Six rules of procedural fairness: consistency, bias-suppression, accuracy,
+      correctability, representativeness, ethicality.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Tyler, T. R., & Blader, S. L. (2003). The group engagement model: Procedural
+      justice, social identity, and cooperative behavior. Personality and Social Psychology
+      Review, 7(4), 349–361. [Notes procedural fairness perceptions are subjective and
+      two parties to the same process may reach opposite assessments — dissent against
+      treating procedural compliance as a guarantee of perceived fairness.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Legal filing data is the highest-value inferred source for this indicator. EEOC charge
+  data (where public), regulatory disclosures, and employment litigation records provide
+  systematic rather than anecdotal signal. Employee reviews referencing "HR was no help"
+  or "I had no chance to respond" are directional signals requiring triangulation.

@@ -1,0 +1,69 @@
+id: NDI-ydxjih-v1
+concept_id: NDI-ydxjih
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe meeting schedules, planning cycles, or review timelines
+      as unpredictable, frequently rescheduled, or inconsistently held — suggesting
+      cadence instability.
+    - >
+      Job postings or company descriptions emphasizing extreme agility, constant reprioritization,
+      or "move fast" without mention of planning structure are a weak negative signal.
+  declared:
+    - >
+      Organization publicly describes a planning cadence — including quarter or sprint
+      boundaries, planning meeting rhythms, and review cycles — in strategy or people
+      documentation.
+    - >
+      Publicly accessible operational calendar or description of meeting cadence demonstrating
+      consistent, recurring structure.
+  validated:
+    - >
+      Accredited verifier confirms: (1) a documented planning cadence exists covering
+      the primary operational planning cycle, (2) adherence to the cadence is tracked,
+      (3) deviations from the cadence are communicated in advance and justified.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+    - careers_page
+  declared:
+    - public_strategy_documentation
+    - organizational_design_documentation
+    - employee_handbook
+  validated:
+    - internal_policy_documents
+    - operational_data
+
+citations:
+  supporting:
+    - >
+      Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases.
+      Science, 185(4157), 1124–1131. [Cognitive anchoring to predictable cycles reduces
+      planning uncertainty load.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Barkley, R. A. (2012). Executive Functions. Guilford Press.
+  dissenting:
+    - >
+      Sutherland, J. (2014). Scrum: The Art of Doing Twice the Work in Half the Time.
+      Crown Business. [Argues that iterative, flexible planning rhythms outperform rigid
+      cadences in many product environments — dissent applies where cadence stability
+      is argued to require uniformity across all work types.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  Look specifically for review language around meetings that are "always rescheduled,"
+  "never happen," or planning that "never sticks." These are more specific than
+  general agility complaints and point to cadence reliability as the underlying issue.

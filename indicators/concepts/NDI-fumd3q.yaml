@@ -1,0 +1,21 @@
+id: NDI-fumd3q
+normalized_name: "reduce subjectivity in evaluations"
+
+title: Performance evaluations reduce subjectivity through structured criteria
+
+description: |
+  The organization requires that performance evaluations use structured, documented criteria
+  that limit the scope of purely subjective judgment. Evaluation frameworks define what
+  evidence is acceptable for each rating level, require concrete examples, and are reviewed
+  for inter-rater consistency. Assessors are trained in structured evaluation methodology.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Subjective evaluations are particularly susceptible to bias against employees
+  whose communication style, social behavior, or presentation differs from the evaluator's
+  implicit norm. Structuring evaluations protects employees who are strong performers but
+  poor conformists.

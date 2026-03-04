@@ -1,0 +1,22 @@
+id: NDI-g4e5z4
+normalized_name: "bias mitigation safeguards exist in evaluation"
+
+title: Bias mitigation safeguards are embedded in evaluation processes
+
+description: |
+  The organization has established structural safeguards in performance evaluation processes
+  that reduce the influence of evaluator bias. These may include calibration sessions,
+  structured rubrics with observable behavioral anchors, blind or anonymized review elements,
+  and documented rationale requirements. Safeguards are systematically applied, not optional
+  add-ons.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Neurodivergent employees are disproportionately subject to evaluation bias
+  when processes rely on evaluator intuition or unstated norms. Structural safeguards
+  provide a floor of objectivity that benefits all employees but is especially protective
+  for those who deviate from behavioral majorities.

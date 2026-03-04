@@ -1,0 +1,64 @@
+id: NDI-yatlql-v1
+concept_id: NDI-yatlql
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Job descriptions emphasize personality traits, social style attributes, or
+      interpersonal characteristics as primary selection criteria rather than skills,
+      experience, or demonstrated outputs.
+    - >
+      Leadership team or "Our Team" pages show extreme demographic or background homogeneity,
+      suggesting hiring converges on a narrow profile.
+    - >
+      Job postings using terms like "rockstar," "ninja," "culture champion," "passionate,"
+      or "dynamic" as primary descriptors without output-based role definitions.
+    - >
+      News coverage or legal filings referencing discrimination, hostile environment,
+      or systemic exclusion of employees who deviate from a behavioral norm.
+
+evidence_sources:
+  inferred:
+    - job_postings
+    - careers_page
+    - glassdoor_reviews
+    - blind_reviews
+    - news_coverage
+    - legal_filings
+    - annual_reports
+    - corporate_sustainability_reports
+
+citations:
+  supporting:
+    - >
+      Rivera, L. A. (2012). Hiring as cultural matching. American Sociological Review,
+      77(6), 999–1022.
+    - >
+      Bertrand, M., & Mullainathan, S. (2004). Are Emily and Greg more employable than
+      Lakisha and Jamal? A field experiment on labor market discrimination. American
+      Economic Review, 94(4), 991–1013. [Implicit bias in hiring as a measurable signal
+      extractable from public behavior — analogous methodology applies to behavioral bias.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Cable, D. M., & Judge, T. A. (1997). Interviewers' perceptions of person-organization
+      fit and organizational selection decisions. Journal of Applied Psychology, 82(4), 546–561.
+      [Argues P-O fit judgments, while subject to bias, also capture legitimate value alignment
+      that predicts job satisfaction — dissent against treating all P-O fit assessment as
+      discriminatory.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Job description linguistic analysis is the primary inferred detection method.
+  Contrast hiring language with explicit neurodiversity inclusion or structured
+  interviewing commitments in the same organization. Leadership homogeneity signals
+  are weaker and require corroboration from other signals.

@@ -96,6 +96,59 @@ nei/
 
 ---
 
+## Concept vs. Version
+
+Every indicator exists at two levels:
+
+| Level | File | Purpose |
+|---|---|---|
+| **Concept** | `indicators/concepts/NDI-xxxxxx.yaml` | Stable definition of what the indicator represents. Never changes once assigned an ID. |
+| **Version** | `indicators/versions/NDI-xxxxxx-vN.yaml` | The specific criteria used to assess the indicator at a point in time. A new version is created whenever criteria change. |
+
+This separation means:
+
+- The concept is permanent — the same ID always refers to the same idea.
+- The criteria are versioned — evaluations reference specific versions for reproducibility.
+- Citing an indicator in a release always pins both the concept and the criteria version.
+
+---
+
+## Taxonomy: The Only Source of Domain Relationships
+
+**Domain membership and indicator relationships live exclusively in taxonomy tables.**
+
+Indicator files (`indicators/concepts/`, `indicators/versions/`) do **not** contain domain assignments. This means:
+
+- An indicator can belong to multiple domains without changing its definition.
+- Domain reorganizations do not require modifying indicator files.
+- Taxonomy can evolve on its own versioning cycle.
+
+Taxonomy is stored as two CSV tables per taxonomy version:
+
+| File | Description |
+|---|---|
+| `taxonomy/nodes/NDT-<version>-nodes.csv` | All nodes: root, domains, and indicators |
+| `taxonomy/edges/NDT-<version>-edges.csv` | All relationships between nodes |
+
+Relationship types include: `parent_of`, `contains`, `related_to`, `mitigates`, `reinforces`, `depends_on`.
+
+---
+
+## Candidate vs. Standard Releases
+
+| Stage | Identifier format | Use |
+|---|---|---|
+| **Candidate release** | `NDR-<semver>C-NDP-<seed>` | Under review; not for formal evaluation |
+| **Standard release** | `NDR-<semver>` | Approved; suitable for formal evaluation |
+
+A Standard release manifest must reference **only Standard indicator versions** and a **Standard taxonomy version**. Candidate releases may reference Candidate indicators during their review period.
+
+The current candidate release is [`NDR-0.1.0C-NDP-seed`](releases/NDR-0.1.0C-NDP-seed.yaml) — 30 indicators across 15 domains.
+
+The current standard release is [`NDR-1.0.0`](releases/NDR-1.0.0.yaml) — 7 indicators across 6 domains.
+
+---
+
 ## Getting Started
 
 - To **understand the framework**, read [`docs/framework.md`](docs/framework.md).

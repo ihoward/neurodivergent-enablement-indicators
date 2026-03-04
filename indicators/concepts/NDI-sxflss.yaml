@@ -1,0 +1,21 @@
+id: NDI-sxflss
+normalized_name: "crossfunctional overlap is actively governed"
+
+title: Cross-functional scope overlap is actively governed and resolved
+
+description: |
+  The organization identifies and actively manages areas of overlapping responsibility
+  between teams, functions, or roles. Decision ownership at overlap points is explicitly
+  defined and documented. Where overlap is intentional, the coordination mechanism is
+  specified. Unresolved or silently tolerated overlap is treated as an organizational debt.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Ambiguous ownership at organizational boundaries creates environments where
+  it is unclear who has authority to decide, approve, or block work. This ambiguity
+  disproportionately disadvantages employees who rely on explicit permission structures
+  rather than implicit negotiation.

@@ -1,0 +1,82 @@
+id: NDI-fb7h5v-v1
+concept_id: NDI-fb7h5v
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Job descriptions include evaluation criteria referencing communication style,
+      interpersonal presence, "executive presence," energy, or team chemistry as
+      explicit or implied performance dimensions rather than work outputs.
+    - >
+      Employee reviews describe performance ratings as influenced by personality or
+      presentation rather than work quality — with specific terms like "favoritism,"
+      "style over substance," or "how you come across."
+    - >
+      Leadership or HR public content defining performance criteria shows absence of
+      output-based anchors in favor of behavioral or relational descriptors.
+  declared:
+    - >
+      Organization publicly describes a performance management framework where primary
+      criteria are defined in terms of work outputs, project outcomes, or skill application —
+      not behavioral style or cultural alignment.
+    - >
+      Job postings describe the role's success metrics in output or outcome terms, not
+      stylistic conformance terms.
+  validated:
+    - >
+      Accredited verifier reviews performance management documentation and confirms:
+      (1) primary evaluation criteria reference observable outputs or outcomes,
+      (2) style-based criteria either do not exist or are explicitly operationalized with
+      observable behavioral anchors, (3) evaluators are required to provide concrete
+      examples of output-based evidence.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+    - careers_page
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - annual_reports
+    - corporate_sustainability_reports
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - third_party_audits
+
+citations:
+  supporting:
+    - >
+      Goldin, C., & Rouse, C. (2000). Orchestrating impartiality: The impact of "blind"
+      auditions on female musicians. American Economic Review, 90(4), 715–741.
+      [Classic demonstration that removing style/presentation cues from evaluation improves
+      outcome validity.]
+    - >
+      Austin, R. D., & Pisano, G. P. (2017). Neurodiversity as a competitive advantage.
+      Harvard Business Review, 95(3), 96–103.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Campion, M. A., Fink, A. A., Ruggeberg, B. J., Carr, L., Phillips, G. M., &
+      Odman, R. B. (2011). Doing competencies well: Best practices in competency modeling.
+      Personnel Psychology, 64(1), 225–262. [Argues behavioral competencies serve legitimate
+      predictive functions in performance management when properly anchored — dissent applies
+      to arguments that behavioral criteria should be eliminated entirely rather than
+      operationalized more rigorously.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Search job postings for terms: "executive presence," "strong communicator," "dynamic,"
+  "high energy," "collaborative personality," "team player" used as primary selection
+  criteria. Cross-reference with publicly available performance frameworks where accessible.

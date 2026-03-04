@@ -1,0 +1,64 @@
+# NEI Candidate Release — NDR-0.1.0C-NDP-seed
+#
+# This is a CANDIDATE release. It must not be used for formal evaluations.
+# It will advance to Standard (NDR-0.1.0) following the review process
+# described in GOVERNANCE.md.
+#
+# All referenced indicator versions carry status: candidate.
+# Taxonomy NDT-0.1.0C-NDP-seed is also a candidate.
+
+release_id: NDR-0.1.0C-NDP-seed
+taxonomy_id: NDT-0.1.0C-NDP-seed
+release_date: 2026-03-04
+status: candidate
+
+description: |
+  Seed candidate release of the expanded NEI indicator set. Introduces 30 indicator
+  concepts across 15 domains covering administrative accessibility, performance and
+  evaluation fairness, role clarity, decision governance, predictability and change
+  management, sensory environment, workspace stability, cultural norms, hiring diversity,
+  methodological integrity, support infrastructure, procedural justice, and experiential
+  signal indicators.
+
+  This release is open for community review before advancement to Standard.
+
+indicator_versions:
+  - NDI-ypwtie-v1
+  - NDI-kjsiny-v1
+  - NDI-mubms7-v1
+  - NDI-g4gu4o-v1
+  - NDI-v3a4ss-v1
+  - NDI-fb7h5v-v1
+  - NDI-fumd3q-v1
+  - NDI-oosjha-v1
+  - NDI-g4e5z4-v1
+  - NDI-x77aga-v1
+  - NDI-iuc2r5-v1
+  - NDI-sxflss-v1
+  - NDI-su335j-v1
+  - NDI-ow2t74-v1
+  - NDI-mmp2kt-v1
+  - NDI-ydxjih-v1
+  - NDI-edqojx-v1
+  - NDI-xtjoiv-v1
+  - NDI-teuy7w-v1
+  - NDI-w2b3yw-v1
+  - NDI-jluxp4-v1
+  - NDI-g7i2ad-v1
+  - NDI-yatlql-v1
+  - NDI-vfm7gb-v1
+  - NDI-yz5v2j-v1
+  - NDI-rftx3v-v1
+  - NDI-qqcvqh-v1
+  - NDI-xqahn3-v1
+  - NDI-wdawm6-v1
+  - NDI-lhkpps-v1
+
+open_questions:
+  - Should E-series indicators (experiential/inferred-only) be part of the main release
+    manifest or a separate inferred-signal reference set?
+  - Should Communication Modality & Processing and Cognitive Load & Work Structuring
+    domains receive dedicated indicators in a follow-on proposal?
+  - Review threshold (≥15%) for E-series indicators requires empirical calibration.
+
+approved_by: []

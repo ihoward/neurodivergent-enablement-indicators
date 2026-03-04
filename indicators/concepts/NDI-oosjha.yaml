@@ -1,0 +1,22 @@
+id: NDI-oosjha
+normalized_name: "feedback is proportionate and specific"
+
+title: Feedback is proportionate to performance and grounded in specific examples
+
+description: |
+  The organization delivers performance feedback that is proportionate to the magnitude of
+  the performance event and anchored in specific, observable examples. Vague, sweeping
+  criticism or disproportionately negative characterizations of minor issues are avoided.
+  Equally, inflated or ungrounded positive feedback is avoided. Feedback is delivered in
+  a form and context that allows the recipient to understand and act on it.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Disproportionate or unspecific feedback creates high uncertainty and
+  emotional processing load. Neurodivergent employees may have difficulty inferring what
+  is really meant by vague or stylized feedback and may over-index on extremes if specificity
+  is absent.

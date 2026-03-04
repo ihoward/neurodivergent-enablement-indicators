@@ -1,0 +1,22 @@
+id: NDI-mmp2kt
+normalized_name: "advance notice for material work changes"
+
+title: Material changes to work arrangements are communicated with advance notice
+
+description: |
+  The organization provides timely advance notice when material changes to an employee's
+  work context are imminent. Material changes include role modifications, reporting structure
+  changes, location or workspace changes, significant process changes, and priority realignments.
+  Notice is sufficient to allow meaningful preparation and is communicated through defined
+  channels rather than informal or last-minute disclosure.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Unexpected changes to stable routines impose significant adjustment cost
+  on neurodivergent employees. Advance notice converts a potentially destabilizing event
+  into a manageable transition by allowing time for cognitive preparation and environment
+  reorientation.

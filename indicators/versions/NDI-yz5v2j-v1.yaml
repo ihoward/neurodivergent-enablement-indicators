@@ -1,0 +1,80 @@
+id: NDI-yz5v2j-v1
+concept_id: NDI-yz5v2j
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Organization's publicly described coaching or professional development programs
+      do not reference medical disclosure or HR accommodation as a prerequisite for access.
+    - >
+      Employee reviews describe coaching or mentoring as widely available and self-directed,
+      not gated by manager approval or medical process.
+    - >
+      Job postings or employer branding describing coaching, mentoring, or development
+      as universal benefits are a positive signal.
+  declared:
+    - >
+      Organization publicly states coaching or advisory support is available to all
+      employees without requiring neurodivergent disclosure.
+    - >
+      Benefits or HR documentation describes coaching as accessible through self-referral,
+      without requiring manager permission or formal accommodation request.
+    - >
+      Coach or advisor training program descriptions reference diverse cognitive work
+      styles as a core competency area.
+  validated:
+    - >
+      Accredited verifier confirms: (1) coaching programs do not require medical or
+      HR-mediated disclosure as a precondition, (2) the program is available to all
+      employees regardless of role or level, (3) coaches have documented training in
+      diverse cognitive work styles.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - careers_page
+    - job_postings
+  declared:
+    - employee_handbook
+    - benefits_documentation
+    - public_policy_pages
+    - diversity_equity_inclusion_reports
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - coach_training_documentation
+
+citations:
+  supporting:
+    - >
+      Corrigan, P. W. (2007). How clinical diagnosis might exacerbate the stigma of mental
+      illness. Social Work, 52(1), 31–39. [Disclosure-gated support increases stigma and
+      reduces uptake among those who most need it.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Austin, R. D., & Pisano, G. P. (2017). Neurodiversity as a competitive advantage.
+      Harvard Business Review, 95(3), 96–103.
+  dissenting:
+    - >
+      Stone, S. D., & Colella, A. (1996). A model of factors affecting the treatment of
+      disabled individuals in organizations. Academy of Management Review, 21(2), 352–401.
+      [Notes that targeted support for specific populations can be more effective than
+      universal programs when population needs are distinct — dissent against treating
+      universal access as always superior to targeted provision.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  The key test is whether the access pathway requires disclosure. Self-referral with
+  no disclosure obligation is the positive condition. Manager-referral only, or programs
+  described as part of "disability support" or "accommodation," are negative signals
+  regardless of availability.

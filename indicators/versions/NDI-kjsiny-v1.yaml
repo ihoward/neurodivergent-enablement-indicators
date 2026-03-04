@@ -1,0 +1,76 @@
+id: NDI-kjsiny-v1
+concept_id: NDI-kjsiny
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews reference difficulty navigating internal systems, unclear approval
+      chains, or processes requiring multiple undocumented steps in a notable proportion
+      of reviews across platforms.
+    - >
+      Job postings for operational or support roles emphasize "navigating a complex
+      organization" or "managing ambiguity" as core requirements — indicating that
+      administrative complexity is treated as an employee burden rather than an
+      organizational design responsibility.
+  declared:
+    - >
+      Organization publicly documents key administrative processes end-to-end, including
+      step counts, responsible parties at each step, and expected timelines.
+    - >
+      Employee handbook or intranet excerpts that are publicly accessible show process
+      documentation that does not require prior informal knowledge to follow.
+  validated:
+    - >
+      Accredited verifier reviews a representative sample of administrative processes
+      and confirms: (1) each is fully documented, (2) a new employee could complete
+      each process without informal guidance, (3) the number of required steps is
+      proportionate to the risk/value of the activity.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - indeed_reviews
+    - blind_reviews
+    - job_postings
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - careers_page
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - operational_data
+
+citations:
+  supporting:
+    - >
+      Herd, P., & Moynihan, D. P. (2019). Administrative Burden: Policymaking by Other Means.
+      Russell Sage Foundation.
+    - >
+      Bozeman, B. (1993). A theory of government "red tape." Journal of Public Administration
+      Research and Theory, 3(3), 273–304. [Foundational theory of administrative burden as
+      a structural phenomenon separable from individual performance.]
+    - >
+      Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: More speed
+      and stress. Proceedings of CHI 2008. ACM. [Multi-step, interruption-prone processes
+      impose time-recovery costs analogous to task interruptions.]
+  dissenting:
+    - >
+      Adler, P. S., & Borys, B. (1996). Two types of bureaucracy: Enabling and coercive.
+      Administrative Science Quarterly, 41(1), 61–89. [Argues that some procedural complexity
+      serves enabling functions; not all multi-step processes are coercive or dysfunctional.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Distinguish between process complexity that is structural (observable in documentation)
+  and process complexity that is only visible in employee experience data. Both signals
+  are relevant. Job postings that treat organizational complexity navigation as a
+  competency requirement are strong inferred signals.

@@ -1,0 +1,70 @@
+id: NDI-ow2t74-v1
+concept_id: NDI-ow2t74
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe priority confusion — "constantly changing priorities,"
+      "unclear what matters most," or "everyone thinks their project is top priority" —
+      in a notable proportion of platform reviews.
+    - >
+      Job postings that treat "managing competing priorities" as a core candidate
+      competency without describing an organizational system for priority resolution.
+  declared:
+    - >
+      Organization publicly describes a priority governance model that identifies who
+      sets priorities at each organizational level and how conflicts are arbitrated.
+    - >
+      Published OKR, planning, or strategy documentation describes a defined process
+      for priority conflict resolution.
+  validated:
+    - >
+      Accredited verifier confirms: (1) documented priority governance framework exists,
+      (2) the framework names decision-makers by role for priority conflict scenarios,
+      (3) employees can access the priority governance documentation without informal guidance.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+  declared:
+    - organizational_design_documentation
+    - public_strategy_documentation
+    - employee_handbook
+  validated:
+    - internal_policy_documents
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Eisenhardt, K. M., & Bourgeois, L. J. (1988). Politics of strategic decision making
+      in high-velocity environments. Academy of Management Journal, 31(4), 737–770.
+      [Documents how absence of clear priority authority creates political conflict in
+      fast-moving organizational contexts.]
+    - >
+      Barkley, R. A. (2012). Executive Functions. Guilford Press.
+      [Priority conflicts require the same executive functions — working memory, inhibition,
+      planning — that are most impaired in ADHD; explicit authority removes the executive
+      function burden of resolving them informally.]
+  dissenting:
+    - >
+      Mintzberg, H. (1973). The Nature of Managerial Work. Harper & Row. [Argues that
+      managerial work is inherently fragmented and that responding to competing priorities
+      is a legitimate aspect of complex roles, not purely an organizational design failure.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  The "constantly changing priorities" review cluster is a widely observed pattern. The
+  indicator specifically targets whether the organization has a governance mechanism for
+  priority conflicts, not whether priorities ever change — some priority change is expected
+  in dynamic organizations.

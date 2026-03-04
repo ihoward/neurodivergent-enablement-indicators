@@ -1,0 +1,23 @@
+id: NDI-edqojx
+normalized_name: "manager changes treated as a material work environment change"
+
+title: Manager transitions are treated as material work environment changes
+
+description: |
+  The organization recognizes that a change in direct manager constitutes a fundamental
+  change to an employee's work environment — comparable to a significant structural or
+  physical change. Manager transitions are managed with documented handoff protocols,
+  structured onboarding between the new manager and affected employees, expectation
+  re-alignment conversations, and an explicit adjustment period. Ad-hoc or unannounced
+  manager changes are avoided.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: The direct manager relationship governs communication norms, task assignment
+  style, feedback modality, accommodation arrangements, and priority-setting. For neurodivergent
+  employees who have adapted their workflow to a particular management style, an unmanaged
+  manager change can be as disruptive as an office relocation or a major role change.

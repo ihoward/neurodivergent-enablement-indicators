@@ -1,0 +1,72 @@
+id: NDI-fumd3q-v1
+concept_id: NDI-fumd3q
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews reference evaluation processes as inconsistent, opaque, or unpredictable —
+      with descriptions of different outcomes for similar performance or criteria that shift
+      between review cycles.
+    - >
+      Absence of any publicly described structured evaluation framework or rubric is a
+      weak negative signal.
+  declared:
+    - >
+      Organization publicly describes structured evaluation criteria with observable
+      behavioral or output anchors for each performance dimension.
+    - >
+      HR or performance management documentation describes calibration, inter-rater
+      review, or standardization steps in the evaluation process.
+  validated:
+    - >
+      Accredited verifier confirms: (1) written evaluation rubrics exist with observable
+      anchors for each rating level, (2) a calibration process is documented and operational,
+      (3) evaluators are required to justify ratings with documented evidence.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - corporate_sustainability_reports
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - third_party_audits
+
+citations:
+  supporting:
+    - >
+      Latham, G. P., & Wexley, K. N. (1981). Increasing Productivity Through Performance
+      Appraisal. Addison-Wesley. [Structured appraisal approaches demonstrated to increase
+      validity and reduce evaluator subjectivity.]
+    - >
+      Kahneman, D., Sibony, O., & Sunstein, C. R. (2021). Noise: A Flaw in Human Judgment.
+      Little, Brown Spark. [Empirical demonstration of the scale of idiosyncratic variation
+      in human judgment processes, including performance evaluation.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Pulakos, E. D., Mueller-Hanson, R., & O'Leary, R. S. (2008). Performance management
+      in the United States. In A. Varma, P. S. Budhwar, & A. DeNisi (Eds.), Performance
+      Management Systems: A Global Perspective. Routledge. [Notes that over-structured
+      evaluation can reduce evaluator engagement and produce ritualistic compliance rather
+      than genuine assessment.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Inferred evidence requires caution: complaints about inconsistency may reflect legitimate
+  disagreement about outcomes rather than structural subjectivity. Look for systematic patterns
+  across multiple reviewers rather than individual complaints.

@@ -1,0 +1,22 @@
+id: NDI-xtjoiv
+normalized_name: "noisy workplaces are mitigated"
+
+title: Workplace noise and auditory disruption are actively mitigated
+
+description: |
+  The organization takes deliberate, structural steps to reduce noise and auditory disruption
+  in work environments. Mitigation may include acoustic treatment of shared spaces, dedicated
+  quiet zones, policies limiting noise in focus areas, access to noise-cancellation provisions,
+  or flexible remote work arrangements. Employees are not expected to self-manage noise
+  exposure without organizational support.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Auditory sensitivity and susceptibility to noise-induced cognitive disruption
+  are strongly associated with autism and ADHD. Open-plan, high-noise environments impose
+  a continuous attentional tax that disproportionately affects neurodivergent employees
+  and can make sustained deep work impossible without mitigation.

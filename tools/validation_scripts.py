@@ -45,8 +45,10 @@ RELEASES_DIR = REPO_ROOT / "releases"
 
 CONCEPT_ID_PATTERN = re.compile(r"^NDI-[a-z0-9]{6}$")
 VERSION_ID_PATTERN = re.compile(r"^NDI-[a-z0-9]{6}-v\d+$")
-TAXONOMY_VERSION_PATTERN = re.compile(r"^NDT-\d+\.\d+\.\d+$")
-RELEASE_ID_PATTERN = re.compile(r"^NDR-\d+\.\d+\.\d+$")
+# Standard: NDT-1.0.0  |  Candidate: NDT-0.1.0C-NDP-seed
+TAXONOMY_VERSION_PATTERN = re.compile(r"^NDT-\d+\.\d+\.\d+([CP]-\S+)?$")
+# Standard: NDR-1.0.0  |  Candidate: NDR-0.1.0C-NDP-seed
+RELEASE_ID_PATTERN = re.compile(r"^NDR-\d+\.\d+\.\d+([CP]-\S+)?$")
 
 
 class ValidationError:
@@ -181,7 +183,7 @@ def check_taxonomy_files(concept_ids: set[str], errors: list[ValidationError]) -
             node_ids.add(node_id)
             all_node_ids.add(node_id)
 
-            # Indicator nodes must match concept IDs
+            # Indicator nodes must match concept IDs; root and domain nodes are exempt
             node_type = row.get("node_type", "").strip()
             if node_type == "indicator" and node_id not in concept_ids:
                 errors.append(ValidationError(path.name, f"Indicator node {node_id} has no corresponding concept file."))
@@ -219,14 +221,18 @@ def check_release_files(version_ids: set[str], taxonomy_versions: set[str],
             errors.append(ValidationError(path.name, "Could not parse YAML."))
             continue
 
-        # Check required fields
-        for field in ("release_id", "taxonomy_id", "indicators"):
+        # Check required fields — accept either "indicators" or "indicator_versions"
+        indicators_field = "indicators" if "indicators" in data else "indicator_versions"
+        for field in ("release_id", "taxonomy_id"):
             if field not in data:
                 errors.append(ValidationError(path.name, f"Missing required field: {field}"))
+        if "indicators" not in data and "indicator_versions" not in data:
+            errors.append(ValidationError(path.name, "Missing required field: indicators (or indicator_versions)"))
 
         release_id = data.get("release_id", "")
         taxonomy_id = data.get("taxonomy_id", "")
-        indicators = data.get("indicators", [])
+        indicators = data.get(indicators_field, [])
+        is_candidate = bool(re.search(r"[CP]-", release_id))
 
         # Check release ID format
         if not RELEASE_ID_PATTERN.match(release_id):
@@ -236,7 +242,8 @@ def check_release_files(version_ids: set[str], taxonomy_versions: set[str],
         if taxonomy_id and taxonomy_id not in taxonomy_versions:
             errors.append(ValidationError(path.name, f"taxonomy_id {taxonomy_id} has no corresponding taxonomy files."))
 
-        # Check all referenced indicators are Standard format and exist
+        # Standard releases: indicators must be Standard format and exist
+        # Candidate releases: indicators must exist in version files (candidate status allowed)
         for ind_id in indicators:
             if not VERSION_ID_PATTERN.match(ind_id):
                 errors.append(ValidationError(path.name, f"Indicator {ind_id} is not in Standard version format (NDI-xxxxxx-vN)."))

@@ -1,0 +1,23 @@
+id: NDI-w2b3yw
+normalized_name: "workplace permanence home base exists"
+
+title: Employees have a consistent, designated workspace home base
+
+description: |
+  The organization provides employees with a consistent, designated primary workspace
+  rather than requiring daily or frequent hot-desking, hoteling, or unassigned seating
+  arrangements. Where fully fixed desks are not available, a predictable and stable-enough
+  workspace arrangement is provided so that employees can establish a functioning physical
+  environment without daily setup overhead.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Establishing a functional physical work environment — including equipment
+  positioning, sensory setup, and orientation — is a meaningful overhead activity for
+  many neurodivergent employees. Hot-desking eliminates the stability that allows this
+  environment to be established once and maintained, imposing a daily re-setup cost
+  and removing the psychological safety of a known, owned space.

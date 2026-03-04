@@ -1,0 +1,53 @@
+id: NDI-qqcvqh-v1
+concept_id: NDI-qqcvqh
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Across a statistically meaningful sample (minimum 20 reviews from the prior 24 months),
+      a notable proportion (suggested threshold: ≥15%) of reviews on employee review platforms
+      reference administrative burden, bureaucratic complexity, confusing processes, excessive
+      documentation, or difficulty navigating internal systems.
+    - >
+      The pattern appears across multiple review platforms (Glassdoor, Blind, Indeed),
+      not isolated to a single source, reducing the risk of review campaign artifact.
+    - >
+      Review sentiment analysis shows administrative complaints clustering in review sections
+      specifically describing "cons" or workplace challenges, rather than isolated mentions
+      in otherwise positive reviews.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+
+citations:
+  supporting:
+    - >
+      Herd, P., & Moynihan, D. P. (2019). Administrative Burden. Russell Sage Foundation.
+    - >
+      Palepu, K. G., & Healy, P. M. (2008). Business Analysis and Valuation. South-Western.
+      [Public disclosure analysis methodologies applicable to review platform signal extraction.]
+  dissenting:
+    - >
+      Luca, M. (2011). Reviews, reputation, and revenue: The case of Yelp.com. Harvard Business
+      School Working Paper 12-016. [Review platforms systematically attract extreme opinions;
+      administrative burden complaints may be over-represented relative to typical employee
+      experience — dissent requires adjusting for platform sampling bias.]
+
+community_sources:
+  - glassdoor
+  - blind
+  - indeed
+  - reddit:r/antiwork
+  - reddit:r/jobs
+
+implementation_notes: |
+  This indicator measures the presence of a pattern in public review data, not the underlying
+  administrative burden directly. A high prevalence of complaints is necessary but not
+  sufficient evidence — assess review volume, recency, and cross-platform consistency.
+  Use alongside structural indicators (A1–A4) for convergent validity.
+  Do NOT claim causal attribution from this indicator alone.

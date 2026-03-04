@@ -1,0 +1,20 @@
+id: NDI-g4gu4o
+normalized_name: "administrative deadlines include reminders or grace mechanisms"
+
+title: Administrative deadlines include reminders or grace mechanisms
+
+description: |
+  The organization builds reminder systems and grace period mechanisms into deadline-driven
+  administrative processes such as benefits enrollment, compliance training, and performance
+  submissions. Employees are proactively notified before deadlines expire. Where feasible,
+  brief, low-friction extension pathways exist for employees who miss deadlines.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Time-blindness and difficulty with prospective memory are common executive
+  function challenges. Reminder and grace mechanisms compensate for these without requiring
+  disclosure or formal accommodation, reducing anxiety and compliance failures.

@@ -1,0 +1,22 @@
+id: NDI-teuy7w
+normalized_name: "audio notifications are configurable"
+
+title: Audio notifications and alert systems are user-configurable
+
+description: |
+  The organization's standard tooling — including communication platforms, monitoring
+  systems, and collaboration software — supports user configuration of audio alerts and
+  notifications. Employees are able to reduce, silence, or redirect notifications to
+  non-auditory channels. Default configurations are not forced to maintain high-frequency
+  audio interruption streams.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Unpredictable audio interruptions cause attention residue and interrupt
+  deep work states. Configurable notifications allow employees who are particularly
+  sensitive to auditory disruption to manage their alert environment, maintaining
+  focus without organizational permission for each individual accommodation.

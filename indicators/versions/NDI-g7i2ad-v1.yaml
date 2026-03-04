@@ -1,0 +1,67 @@
+id: NDI-g7i2ad-v1
+concept_id: NDI-g7i2ad
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Careers page, employer branding, or leadership messaging prominently features
+      phrases indicating narrow behavioral conformity as a valued cultural trait:
+      "we are a family," "high-energy team," "culture is everything," "move fast
+      together," "authentic culture fit" used as filtering criteria.
+    - >
+      Glassdoor or Blind employer descriptions written by management or HR emphasize
+      personality uniformity, social bonding as a primary value, or "culture add"
+      language that functions as a style filter.
+    - >
+      Leadership team composition showing extreme demographic and behavioral homogeneity
+      is a weak inferred signal of conformity culture.
+  declared:
+    - >
+      Organization publicly describes a culture model that explicitly values cognitive
+      and communication diversity over stylistic uniformity — and does not use culture
+      fit as a screening criterion.
+
+evidence_sources:
+  inferred:
+    - careers_page
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+    - annual_reports
+    - press_releases
+    - news_coverage
+
+citations:
+  supporting:
+    - >
+      Rivera, L. A. (2012). Hiring as cultural matching: The case of elite professional
+      service firms. American Sociological Review, 77(6), 999–1022. [Empirical study of
+      how "culture fit" in hiring systematically selects for class, race, and behavioral
+      conformity rather than competence.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Armstrong, M. (2006). Strategic Human Resource Management. Kogan Page. [Culture
+      conformity signaling as a retention filter as well as a hiring filter.]
+  dissenting:
+    - >
+      Chatman, J. A. (1991). Matching people and organizations: Selection and socialization
+      in public accounting firms. Administrative Science Quarterly, 36(3), 459–484.
+      [Argues person-organization fit on values (not style) correlates with retention and
+      performance — dissent applies to arguments that all culture fit assessment is harmful.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  This indicator is inferred-only because culture messaging is a public signal. The
+  key detection task is linguistic analysis of public employer content. Specific phrases
+  to flag: "culture is everything," "passionate about our mission to the exclusion of all
+  else," "we only hire A-players with the right energy." Contrast with explicit neurodiversity
+  inclusion language, which is a positive counter-signal.

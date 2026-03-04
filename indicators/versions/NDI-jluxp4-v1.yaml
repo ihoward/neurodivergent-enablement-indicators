@@ -1,0 +1,68 @@
+id: NDI-jluxp4-v1
+concept_id: NDI-jluxp4
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe forced office moves, floor changes, or desk relocations
+      with little or no advance notice — described as disorienting or stressful.
+    - >
+      News coverage or annual report disclosures describing office consolidations,
+      relocations, or workspace redesigns without mention of employee transition support.
+  declared:
+    - >
+      Organization publicly states a minimum notice period for workspace or location
+      changes, or describes a transition support process for office moves.
+    - >
+      Facilities or HR policy documentation describes advance notification requirements
+      for workspace changes.
+  validated:
+    - >
+      Accredited verifier confirms: (1) a documented notice standard exists for workspace
+      transitions, (2) a transition support process is described for significant location
+      changes, (3) employees have a mechanism to request additional transition time.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - news_coverage
+    - annual_reports
+  declared:
+    - employee_handbook
+    - facilities_documentation
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Elsbach, K. D. (2003). Relating physical environment to self-categorizations.
+      Administrative Science Quarterly, 48(4), 622–654.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Lazarus, R. S., & Folkman, S. (1984). Stress, Appraisal, and Coping. Springer.
+  dissenting:
+    - >
+      Knight, C., & Haslam, S. A. (2010). The relative merits of lean, enriched, and
+      empowered offices: An experimental examination of the impact of workspace management
+      strategies on well-being and productivity. Journal of Experimental Psychology:
+      Applied, 16(2), 158–172. [Notes that workspace change can be positive when employees
+      have agency in the new configuration — dissent applies where transition management
+      is treated as sufficient alone without addressing outcome quality.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  Office move reviews often cluster after major real-estate events. Search for review
+  spikes coinciding with announced office consolidations or redesigns. The indicator
+  targets process quality of the transition, not the outcome of the new space.

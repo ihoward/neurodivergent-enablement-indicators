@@ -1,0 +1,76 @@
+id: NDI-su335j-v1
+concept_id: NDI-su335j
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe a gap between formal authority and real decision power —
+      referencing "shadow leaders," "you need to know the right people," "politics,"
+      or "who you know matters more than what you do."
+    - >
+      News coverage or investigative reporting describing informal power concentration —
+      long-tenured executives whose formal titles do not match their perceived authority —
+      is a relevant structural signal.
+    - >
+      Organizational announcements or press releases that attribute decisions to informal
+      groups or ad-hoc leadership coalitions rather than defined governance structures.
+  declared:
+    - >
+      Organization publicly describes a decision accountability framework that names
+      decision-makers by role, not by individual, for significant categories of decisions.
+    - >
+      RACI or similar decision authority matrices are referenced in public-facing content
+      or governance documentation.
+  validated:
+    - >
+      Accredited verifier confirms: (1) decision authority documentation covers major
+      decision categories, (2) documentation is role-based rather than individual-based,
+      (3) a mechanism exists for employees to identify the authoritative decision-maker
+      for a given decision type without relying on informal knowledge.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - news_coverage
+    - annual_reports
+    - legal_filings
+  declared:
+    - organizational_design_documentation
+    - governance_documentation
+    - employee_handbook
+  validated:
+    - internal_policy_documents
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      French, J. R. P., Jr., & Raven, B. (1959). The bases of social power. In D. Cartwright
+      (Ed.), Studies in Social Power. University of Michigan Press.
+      [Foundational taxonomy of power types; informal influence as distinct from formal authority.]
+    - >
+      Pfeffer, J. (1981). Power in Organizations. Pitman. [Documents the gap between formal
+      authority and real power as a systematic organizational phenomenon.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Cross, R., & Parker, A. (2004). The Hidden Power of Social Networks. Harvard Business
+      Review Press. [Argues informal influence networks are a legitimate organizational
+      asset and that attempts to formalize all authority may undermine valuable informal
+      coordination — dissent applies to arguments for complete formalization.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  "Politics" is a high-frequency keyword in inferred review signals for this indicator.
+  Distinguish between review mentions of politics as a general cultural complaint versus
+  specific descriptions of formal-informal power misalignment. The latter is more precise.

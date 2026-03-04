@@ -1,0 +1,82 @@
+id: NDI-xtjoiv-v1
+concept_id: NDI-xtjoiv
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews reference open-plan noise, inability to concentrate, lack of
+      quiet zones, or sensory overload as recurring complaints across multiple reviewers.
+    - >
+      Physical office descriptions in employer profiles, job postings, or press coverage
+      describe environments (e.g., all open-plan, stadium seating, loud collaborative
+      areas) that lack any mention of quiet or low-stimulation options.
+    - >
+      Remote/hybrid policy descriptions that enable employees to work from quieter
+      environments are a partial positive mitigating signal.
+  declared:
+    - >
+      Organization publicly describes access to quiet zones, phone booths, acoustic
+      treatment, or noise mitigation provisions in its office environment.
+    - >
+      Employee handbook or facilities policy describes a noise management policy for
+      shared workspaces.
+  validated:
+    - >
+      Accredited verifier confirms: (1) at least one category of low-stimulation workspace
+      is available to all employees at each primary office location, (2) a documented noise
+      or sensory policy exists for shared spaces, (3) remote or hybrid arrangements are
+      available to employees who need noise management without requiring medical justification.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+    - careers_page
+    - news_coverage
+    - job_postings
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - careers_page
+    - facilities_documentation
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - third_party_audits
+
+citations:
+  supporting:
+    - >
+      Kim, J., & de Dear, R. (2013). Workspace satisfaction: The privacy-communication
+      trade-off in open-plan offices. Journal of Environmental Psychology, 36, 18–26.
+      [Empirical evidence that open-plan offices reduce satisfaction particularly for
+      noise-sensitive tasks requiring concentration.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Szalavitz, M. (2016). Unbroken Brain. St. Martin's Press. [Sensory processing
+      differences as a significant factor in neurodivergent work experience.]
+  dissenting:
+    - >
+      Haapakangas, A., Hongisto, V., Varjo, J., & Lahtinen, M. (2018). Benefits of quiet
+      workspaces in open-plan offices — Evidence from two office relocations. Journal of
+      Environmental Psychology, 56, 1–18. [Notes that benefits of quiet zones depend heavily
+      on implementation quality; presence of quiet zones is insufficient without accessibility
+      and cultural permission to use them — dissent against treating provision alone as sufficient.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - reddit:r/sensoryprocessing
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Distinguish between organizations with hybrid/remote provisions (partial mitigation)
+  and organizations with in-office quiet zones (direct mitigation). Both are positive
+  signals but at different strength. Inferred evidence should look for convergent signals
+  across multiple reviewers referencing noise specifically.

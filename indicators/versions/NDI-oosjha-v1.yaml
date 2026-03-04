@@ -1,0 +1,73 @@
+id: NDI-oosjha-v1
+concept_id: NDI-oosjha
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe feedback as vague, harsh, or lacking concrete examples —
+      or conversely as uniformly positive without substantive guidance. Either pattern
+      is a negative signal.
+    - >
+      Reviews reference "pip" (performance improvement plans) that appear to escalate
+      disproportionately from minor or undisclosed performance concerns, suggesting
+      feedback was not proportionate before escalation.
+  declared:
+    - >
+      Organization publicly describes a feedback model that requires concrete examples,
+      specifies what proportionate delivery looks like, and distinguishes developmental
+      from disciplinary feedback in documented policy.
+    - >
+      Manager training materials or leadership principles that are publicly accessible
+      reference specificity and proportionality as requirements for feedback delivery.
+  validated:
+    - >
+      Accredited verifier reviews sampled feedback records and confirms: (1) feedback
+      references specific observable events, (2) feedback severity is proportionate to
+      performance event magnitude, (3) positive and developmental feedback is balanced
+      against areas for improvement.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+    - legal_filings
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - leadership_principles_pages
+  validated:
+    - internal_policy_documents
+    - employee_feedback_records
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions on
+      performance: A historical review, a meta-analysis, and a preliminary feedback
+      intervention theory. Psychological Bulletin, 119(2), 254–284.
+      [Shows that feedback effects depend critically on specificity, level, and framing.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+      [Disproportionate or vague feedback creates high uncertainty load for ND employees.]
+  dissenting:
+    - >
+      Kim, S., & Seo, D. (2017). Does positive feedback accelerate performance improvement?
+      Journal of Applied Psychology, 102(4), 623–640. [Argues generously positive feedback
+      can drive performance improvement under certain conditions — dissent applies to
+      strict proportionality requirements that eliminate encouragement functions of feedback.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  PIP-related review patterns are a strong inferred signal when they cluster without
+  prior feedback disclosure in reviews. Look for language like "blindsided," "no warning,"
+  or "came out of nowhere" alongside performance process references.

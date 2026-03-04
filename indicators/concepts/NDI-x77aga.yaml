@@ -1,0 +1,22 @@
+id: NDI-x77aga
+normalized_name: "organizational clarity roles and boundaries prevent crossorganization intrusion"
+
+title: Role clarity and boundary governance prevent unsolicited cross-organizational intrusion
+
+description: |
+  The organization maintains clear definitions of role scope and inter-team boundaries
+  that reduce unsolicited interventions — where individuals or teams from outside a role's
+  defined scope direct, redirect, or interrupt work without authority. Intake and request
+  pathways are defined, and escalation through appropriate channels is the established norm.
+  Boundary violations are recognized and addressed.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Unexpected interruptions from outside defined authority structures are
+  particularly disorienting for employees with ADHD and autism, who may rely heavily on
+  predictable role boundaries to maintain focus, manage priorities, and sustain productive
+  deep work. Intrusion without structure creates reactive work patterns.

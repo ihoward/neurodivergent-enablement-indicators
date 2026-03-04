@@ -1,0 +1,21 @@
+id: NDI-v3a4ss
+normalized_name: "avoid excessive 360 multirater review processes where subjectivity dominates"
+
+title: Multi-rater review processes avoid subjective dominance
+
+description: |
+  The organization limits the use of 360-degree and multi-rater review processes where
+  the criteria evaluated are primarily stylistic, relational, or subjective. Where multi-rater
+  processes are used, criteria are structured and anchored to observable behaviors or outputs.
+  Administrative complexity of soliciting, aggregating, and calibrating multi-rater inputs
+  is treated as a cost to be justified.
+
+evidence_categories:
+  - inferred
+  - declared
+
+notes: |
+  ND rationale: 360-degree processes amplify bias against employees who communicate or
+  present differently. Peers and stakeholders who value style conformance over output
+  quality may systematically disadvantage neurodivergent employees. Unstructured 360
+  criteria also create high administrative and emotional processing load.

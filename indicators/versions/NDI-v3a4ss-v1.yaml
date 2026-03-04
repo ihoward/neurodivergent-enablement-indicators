@@ -1,0 +1,70 @@
+id: NDI-v3a4ss-v1
+concept_id: NDI-v3a4ss
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Job descriptions or employer branding materials reference "360 feedback," "multi-stakeholder
+      reviews," or "peer evaluations" as a prominent feature of performance management —
+      without indicating that criteria are structured or anchored to observable behaviors.
+    - >
+      Employee reviews describe 360 processes as confusing, political, subjective, or
+      administratively burdensome in a notable proportion of mentions.
+    - >
+      HR or leadership thought leadership content promoting 360 feedback without discussing
+      bias mitigation or criteria structure is a weak negative signal.
+  declared:
+    - >
+      Organization publicly states that multi-rater processes use structured, observable
+      criteria rather than open-ended or purely qualitative inputs.
+    - >
+      Employee handbook or performance management policy describes 360 processes as
+      limited in scope, clearly criteria-anchored, or restricted to developmental rather
+      than evaluative use.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+    - careers_page
+    - corporate_sustainability_reports
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - annual_reports
+
+citations:
+  supporting:
+    - >
+      Atkins, P. W. B., & Wood, R. E. (2002). Self- versus others' ratings as predictors of
+      assessment center ratings: Validation evidence and implications for the assessment of
+      360-degree feedback. Journal of Management, 28(6), 781–802. [Documents systematic
+      inaccuracies in multi-rater processes, especially for behavioral dimensions.]
+    - >
+      Scullen, S. E., Mount, M. K., & Goff, M. (2000). Understanding the latent structure of
+      job performance ratings. Journal of Applied Psychology, 85(6), 956–970. [Identifies
+      large idiosyncratic rater variance in 360 processes, undermining reliability.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Bracken, D. W., & Rose, D. S. (2011). When does 360-degree feedback create behavior
+      change? And how would we know it when it does? Journal of Business and Psychology, 26(2),
+      183–192. [Argues well-designed 360 processes can produce meaningful development outcomes,
+      especially when used developmentally rather than evaluatively — dissent applies to
+      categorical rejection of all multi-rater approaches.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Distinguish between 360 used for development (lower harm) and 360 used for rating/ranking
+  (higher harm). The indicator targets the latter. Look for language in job descriptions
+  that positions 360 participation as a performance criterion rather than a development tool.

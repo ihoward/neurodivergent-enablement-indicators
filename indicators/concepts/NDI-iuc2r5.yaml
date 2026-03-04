@@ -1,0 +1,21 @@
+id: NDI-iuc2r5
+normalized_name: "work intake pathways exist and are respected"
+
+title: Defined work intake pathways exist and are consistently respected
+
+description: |
+  The organization has established documented channels through which work requests, task
+  assignments, and project involvement are formally initiated. These pathways are respected
+  by all levels of the organization. Ad-hoc, relationship-driven, or channel-bypassing
+  requests are recognized as exceptions requiring explanation, not standard operating practice.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Unstructured work intake creates unpredictable demand on attention and
+  prioritization. Employees with ADHD or autism who depend on explicit task structures
+  are most affected when requests arrive through informal or unexpected channels, creating
+  priority conflicts that are difficult to navigate without clear authority to defer or decline.

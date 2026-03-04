@@ -1,0 +1,18 @@
+id: NDI-wdawm6
+normalized_name: "glassdoor shows recurring role ambiguity unclear ownership complaints"
+
+title: Inferred signal — recurring role ambiguity and unclear ownership complaints in employee reviews
+
+description: |
+  Public employee review platforms show a statistically notable pattern of complaints
+  referencing unclear roles, ambiguous ownership, lack of defined responsibilities,
+  or organizational confusion about who decides what. This indicator is an inferred-layer
+  signal derived from unsolicited public review data and does not imply direct causal attribution.
+
+evidence_categories:
+  - inferred
+
+notes: |
+  ND rationale: Role ambiguity complaints in unselected review data are a proxy signal
+  for structural ownership gaps that disproportionately affect neurodivergent employees
+  who rely on explicit authority structures and defined role boundaries to navigate work.

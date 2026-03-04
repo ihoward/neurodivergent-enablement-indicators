@@ -1,0 +1,53 @@
+id: NDI-wdawm6-v1
+concept_id: NDI-wdawm6
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Across a statistically meaningful sample (minimum 20 reviews from the prior 24 months),
+      a notable proportion (suggested threshold: ≥15%) of reviews reference role ambiguity,
+      unclear ownership, confusion about responsibilities, or unclear decision authority.
+    - >
+      Review language includes specific phrases such as: "unclear what I'm responsible for,"
+      "don't know who owns what," "too many cooks," "nobody knows who decides," "unclear
+      reporting lines," or "role kept changing."
+    - >
+      Pattern is consistent across multiple review platforms and review time periods.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+
+citations:
+  supporting:
+    - >
+      Rizzo, J. R., House, R. J., & Lirtzman, S. I. (1970). Role conflict and ambiguity.
+      Administrative Science Quarterly, 15(2), 150–163.
+    - >
+      Jackson, S. E., & Schuler, R. S. (1985). Meta-analysis on role ambiguity and role
+      conflict. OBHDP, 36(1), 16–78.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Luca, M. (2011). Reviews, reputation, and revenue. Harvard Business School Working
+      Paper 12-016. [Platform bias caveat — role ambiguity complaints in reviews may reflect
+      transition periods or individual role mismatches rather than systemic structural ambiguity.]
+
+community_sources:
+  - glassdoor
+  - blind
+  - indeed
+  - reddit:r/antiwork
+  - reddit:r/careerguidance
+
+implementation_notes: |
+  This experiential signal is best interpreted in conjunction with structural role clarity
+  indicators (R1–R3) and decision governance indicators (D1–D2). A pattern of role ambiguity
+  complaints combined with absence of public role clarity documentation is a stronger combined
+  signal than either alone. Review dates are important: post-reorganization complaint spikes
+  may reflect temporary not structural ambiguity.

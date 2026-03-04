@@ -1,0 +1,50 @@
+id: NDI-xqahn3-v1
+concept_id: NDI-xqahn3
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Across a statistically meaningful sample (minimum 20 reviews from the prior 24 months),
+      a notable proportion (suggested threshold: ≥15%) of reviews reference performance
+      evaluation as subjective, inconsistent, personality-based, or influenced by favoritism.
+    - >
+      Review language includes specific references to evaluation criteria that are vague,
+      shifting, or personality-focused — such as "depends on who you know," "subjective,"
+      "inconsistent," "favoritism," or "style over substance."
+    - >
+      Pattern is consistent across multiple review platforms, not isolated to a single source.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - indeed_reviews
+
+citations:
+  supporting:
+    - >
+      Kahneman, D., Sibony, O., & Sunstein, C. R. (2021). Noise: A Flaw in Human Judgment.
+      Little, Brown Spark.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Luca, M. (2011). Reviews, reputation, and revenue. Harvard Business School Working
+      Paper 12-016. [Platform sampling bias means unhappy reviewers over-represent complaints —
+      dissent requires weighting review patterns against overall rating distributions.]
+
+community_sources:
+  - glassdoor
+  - blind
+  - indeed
+  - reddit:r/antiwork
+  - reddit:r/careerguidance
+
+implementation_notes: |
+  Search for review clusters containing: "subjective," "favoritism," "depends on who you know,"
+  "personality," "inconsistent reviews," "no clear criteria." Cross-reference with structural
+  performance evaluation indicators (P1–P5) for convergent validity. This is a signal indicator,
+  not a standalone diagnostic. Evaluation complaint patterns may reflect perceptions that do not
+  fully correspond to actual evaluation design quality.

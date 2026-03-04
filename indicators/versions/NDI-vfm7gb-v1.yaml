@@ -1,0 +1,68 @@
+id: NDI-vfm7gb-v1
+concept_id: NDI-vfm7gb
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Organization publicly promotes or endorses assessment instruments lacking
+      peer-reviewed validity evidence — such as MBTI, DISC, or astrology-derived
+      personality frameworks — as consequential HR evaluation tools.
+    - >
+      Job postings or leadership content referencing unvalidated assessment results
+      as inputs to hiring, promotion, or team composition decisions.
+    - >
+      Annual or sustainability reports describing people analytics programs without
+      mentioning measurement validity or bias testing.
+  declared:
+    - >
+      Organization publicly states that assessment and measurement tools used in
+      people decisions are evaluated for methodological validity, reliability, and bias.
+    - >
+      HR or people strategy documentation references structured, validated measurement
+      approaches and excludes unvalidated instruments from consequential use.
+
+evidence_sources:
+  inferred:
+    - careers_page
+    - job_postings
+    - glassdoor_reviews
+    - annual_reports
+    - corporate_sustainability_reports
+    - news_coverage
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - people_strategy_documentation
+
+citations:
+  supporting:
+    - >
+      Schmidt, F. L., & Hunter, J. E. (1998). The validity and utility of selection methods
+      in personnel psychology: Practical and theoretical implications of 85 years of research
+      findings. Psychological Bulletin, 124(2), 262–274. [Definitive meta-analysis on
+      validity of assessment methods; establishes which methods have empirical support.]
+    - >
+      Kahneman, D., Sibony, O., & Sunstein, C. R. (2021). Noise: A Flaw in Human Judgment.
+      Little, Brown Spark.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Barrick, M. R., & Mount, M. K. (1991). The Big Five personality dimensions and job
+      performance. Personnel Psychology, 44(1), 1–26. [Notes that some personality dimensions
+      have demonstrated validity for certain performance outcomes — dissent against treating
+      all personality assessment as methodologically unsound.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  MBTI promotion in job postings or company culture descriptions is a commonly detectable
+  inferred signal. Look for assessments named in hiring descriptions or "culture" pages.
+  The indicator targets consequential use of unvalidated tools, not their existence in
+  optional development contexts.

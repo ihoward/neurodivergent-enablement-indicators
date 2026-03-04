@@ -1,0 +1,21 @@
+id: NDI-ow2t74
+normalized_name: "priority authority is explicitly defined"
+
+title: Priority-setting authority is explicitly defined and accessible
+
+description: |
+  The organization maintains documented definitions of who holds authority to set, change,
+  and arbitrate competing priorities at each level of the organization. When priority
+  conflicts arise, the resolution pathway — including who decides and on what basis — is
+  known without requiring informal navigation or relationship inference.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Priority conflicts that must be resolved through informal negotiation or
+  political positioning create high cognitive and emotional load. Employees who cannot
+  rely on reading implicit signals to navigate priority disputes are left with either
+  paralysis or the risk of incorrect independent prioritization.

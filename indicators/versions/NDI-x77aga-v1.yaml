@@ -1,0 +1,75 @@
+id: NDI-x77aga-v1
+concept_id: NDI-x77aga
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe unexpected direction or task reassignment from individuals
+      outside the employee's reporting structure without formal authority — referenced
+      as a source of confusion, frustration, or conflict.
+    - >
+      Job postings require candidates to demonstrate skill in "managing up," "navigating
+      ambiguous authority," or "working across organizational boundaries" — indicating
+      boundary violation is treated as employee skill to manage rather than structural failure.
+  declared:
+    - >
+      Organization publicly describes defined role scope boundaries, escalation paths, and
+      intake channels that channel work requests through official routes.
+    - >
+      Employee handbook or organizational design documentation describes what constitutes
+      appropriate cross-functional engagement versus unsolicited direction.
+  validated:
+    - >
+      Accredited verifier reviews organizational design documentation and confirms:
+      (1) role scope definitions include explicit boundary descriptions, (2) escalation
+      paths for unsolicited direction are documented, (3) a mechanism exists for employees
+      to flag boundary violations without retaliation risk.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - organizational_design_documentation
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - employee_feedback_mechanisms
+
+citations:
+  supporting:
+    - >
+      Rizzo, J. R., House, R. J., & Lirtzman, S. I. (1970). Role conflict and ambiguity
+      in complex organizations. Administrative Science Quarterly, 15(2), 150–163.
+      [Foundational study establishing role ambiguity and conflict as organizational
+      stressors with measurable performance consequences.]
+    - >
+      Jackson, S. E., & Schuler, R. S. (1985). A meta-analysis and conceptual critique of
+      research on role ambiguity and role conflict in work settings. Organizational Behavior
+      and Human Decision Processes, 36(1), 16–78.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+  dissenting:
+    - >
+      Allen, T. J. (1977). Managing the Flow of Technology. MIT Press. [Argues that
+      informal cross-functional communication is a driver of innovation and that rigidly
+      enforced boundaries can inhibit knowledge transfer — dissent applies where boundary
+      governance becomes barrier to legitimate collaboration.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Review language pointing to "multiple bosses," "pulled in different directions," or
+  "unclear who I report to" are strong inferred signals. Distinguish between matrix
+  structures (explicit dual-reporting, documented) and informal authority overrides
+  (undocumented, relationship-driven).

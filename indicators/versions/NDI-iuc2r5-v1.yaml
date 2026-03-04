@@ -1,0 +1,74 @@
+id: NDI-iuc2r5-v1
+concept_id: NDI-iuc2r5
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe work arriving unexpectedly through informal channels —
+      direct messages from executives, hallway requests, or Slack pings outside established
+      project structures — as a source of overload or priority confusion.
+    - >
+      Job postings that treat responsiveness to ad-hoc requests as a core competency
+      ("able to pivot quickly," "comfortable with ambiguity") without mentioning structured
+      intake indicate informal request culture is normalized.
+  declared:
+    - >
+      Organization publicly describes intake channels — ticketing systems, project
+      request forms, intake meetings — through which work is formally requested and assigned.
+    - >
+      Team or operational documentation describes what constitutes an appropriate vs.
+      inappropriate request pathway, with escalation options for boundary violations.
+  validated:
+    - >
+      Accredited verifier confirms: (1) documented intake pathways exist for primary
+      work categories, (2) request routing is tracked in a system of record,
+      (3) documented escalation path exists for requests received outside established channels.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - job_postings
+    - careers_page
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - team_operating_documentation
+  validated:
+    - internal_policy_documents
+    - operational_data
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: More speed
+      and stress. CHI 2008. ACM. [Documents attentional cost of unstructured task interruption.]
+    - >
+      Leroy, S. (2009). Why is it so hard to do my work? The challenge of attention residue
+      when switching between work tasks. Organizational Behavior and Human Decision Processes,
+      109(2), 168–181. [Attention residue model establishes cost of switching caused by
+      unstructured incoming work requests.]
+    - >
+      Rizzo, J. R., House, R. J., & Lirtzman, S. I. (1970). Role conflict and ambiguity
+      in complex organizations. Administrative Science Quarterly, 15(2), 150–163.
+  dissenting:
+    - >
+      Cross, R., & Prusak, L. (2002). The people who make organizations go — or stop.
+      Harvard Business Review, 80(6), 104–112. [Argues informal networks and ad-hoc
+      information-sharing are critical organizational capabilities — extreme formalization
+      of intake can inhibit legitimate informal collaboration.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Job posting language is often the most accessible inferred signal. "Comfortable with
+  ambiguity" and "able to manage competing priorities" without structural context indicates
+  intake informality is expected. Validate against actual process documentation where accessible.

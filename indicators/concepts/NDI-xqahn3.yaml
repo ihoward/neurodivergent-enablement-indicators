@@ -1,0 +1,20 @@
+id: NDI-xqahn3
+normalized_name: "glassdoor shows recurring subjective evaluation complaints"
+
+title: Inferred signal — recurring subjective evaluation complaints in employee reviews
+
+description: |
+  Public employee review platforms show a statistically notable pattern of complaints
+  referencing subjective, inconsistent, or unfair performance evaluations — including
+  references to favoritism, personality-based ratings, lack of clear criteria, or
+  arbitrary feedback. This indicator is an inferred-layer signal and does not imply
+  direct causal attribution.
+
+evidence_categories:
+  - inferred
+
+notes: |
+  ND rationale: Recurring evaluation complaints in unselected review data indicate that
+  evaluation processes are perceived as unfair or inconsistent, which is a structural
+  risk factor for neurodivergent employees who are already at elevated risk of subjective
+  evaluation bias.

@@ -1,0 +1,70 @@
+id: NDI-mmp2kt-v1
+concept_id: NDI-mmp2kt
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe sudden changes to role, location, or reporting structure
+      with little or no advance notice — described as destabilizing, disrespectful, or
+      poorly managed.
+    - >
+      News coverage or regulatory filings describing layoffs, restructurings, or
+      leadership changes that were announced with very short notice windows.
+  declared:
+    - >
+      Organization publicly states a minimum notice period for material work changes —
+      either in its employee handbook, people strategy documentation, or commitment
+      to workplace standards.
+    - >
+      Careers or people strategy pages reference a culture of transparency and advance
+      communication around organizational changes.
+  validated:
+    - >
+      Accredited verifier confirms: (1) a documented advance notice standard exists for
+      defined categories of material change, (2) the standard has been applied in tracked
+      cases, (3) exceptions to the standard are documented with justification.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - news_coverage
+    - legal_filings
+    - annual_reports
+  declared:
+    - employee_handbook
+    - careers_page
+    - people_strategy_documentation
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - operational_data
+
+citations:
+  supporting:
+    - >
+      Lazarus, R. S., & Folkman, S. (1984). Stress, Appraisal, and Coping. Springer.
+      [Unexpected change as a primary stressor; predictability as a buffer of the stress response.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Barkley, R. A. (2012). Executive Functions. Guilford Press.
+  dissenting:
+    - >
+      Weick, K. E., & Sutcliffe, K. M. (2001). Managing the Unexpected. Jossey-Bass.
+      [Argues that organizations in dynamic environments cannot always provide advance notice
+      for all changes; resilience to surprise is a legitimate organizational capability to develop.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Distinguish between strategic announcements (which often have short notice for
+  confidentiality reasons) and individual role changes (which can typically be managed
+  with longer notice). The indicator primarily targets individual-level material changes.

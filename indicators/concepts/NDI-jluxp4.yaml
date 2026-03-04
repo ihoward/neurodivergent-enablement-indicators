@@ -1,0 +1,20 @@
+id: NDI-jluxp4
+normalized_name: "workspace transitions are managed with advance notice"
+
+title: Workspace and location transitions are managed with advance notice
+
+description: |
+  The organization provides meaningful advance notice before requiring employees to
+  change their primary workspace, desk assignment, floor, building, or office location.
+  The transition process includes time to establish the new space before productive work
+  is expected. Involuntary, unannounced workspace moves are treated as process failures.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Physical workspace transitions disrupt sensory calibration, spatial memory,
+  and environmental routines that neurodivergent employees may rely on heavily. Advance
+  notice converts a destabilizing event into a planned transition with time to adapt.

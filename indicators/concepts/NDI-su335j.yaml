@@ -1,0 +1,22 @@
+id: NDI-su335j
+normalized_name: "clarity of decision power where influence disagrees with formal power"
+
+title: Decision authority is explicit where formal power and informal influence diverge
+
+description: |
+  The organization maintains explicit, documented accountability for decisions in areas
+  where informal influence — senior tenured individuals, high-visibility roles, or
+  relationship-connected actors — may diverge from formal organizational authority. Where
+  such divergence exists, the authoritative decision-maker is named, the escalation path
+  is defined, and ambiguity is not left to be resolved through political inference.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated
+
+notes: |
+  ND rationale: Organizations where informal power routinely overrides formal authority
+  create environments that reward political skill and relationship capital over merit.
+  Neurodivergent employees who rely on explicit authority structures are systematically
+  disadvantaged when actual decision power is opaque or must be inferred socially.

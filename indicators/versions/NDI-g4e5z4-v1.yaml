@@ -1,0 +1,78 @@
+id: NDI-g4e5z4-v1
+concept_id: NDI-g4e5z4
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Organization's DEI or HR public content discusses performance evaluation bias
+      mitigation, structured interviewing, or calibration — indicating organizational
+      awareness of bias as a process concern.
+    - >
+      Annual or sustainability reports include disclosures about evaluation consistency,
+      pay equity reviews, or demographic outcome analysis.
+    - >
+      Absence of any public mention of bias mitigation in evaluation is a weak negative signal.
+  declared:
+    - >
+      Organization publicly describes calibration sessions, structured rubrics, or
+      blind review elements as components of its performance evaluation process.
+    - >
+      Public diversity or people strategy reports describe specific interventions to
+      reduce subjectivity or bias in performance evaluation.
+  validated:
+    - >
+      Accredited verifier confirms: (1) calibration process is documented and operational
+      across a majority of evaluation cycles, (2) structured rubrics with observable anchors
+      exist for primary evaluation dimensions, (3) demographic outcome analysis of
+      evaluation results is conducted and documented.
+
+evidence_sources:
+  inferred:
+    - corporate_sustainability_reports
+    - annual_reports
+    - careers_page
+    - news_coverage
+    - ngo_association_membership
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - diversity_equity_inclusion_reports
+    - press_releases
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - third_party_audits
+    - operational_data
+
+citations:
+  supporting:
+    - >
+      Kahneman, D., Sibony, O., & Sunstein, C. R. (2021). Noise: A Flaw in Human Judgment.
+      Little, Brown Spark.
+    - >
+      Goldin, C., & Rouse, C. (2000). Orchestrating impartiality. American Economic Review,
+      90(4), 715–741.
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Colquitt, J. A. (2001). On the dimensionality of organizational justice.
+      Journal of Applied Psychology, 86(3), 386–400.
+  dissenting:
+    - >
+      Heilman, M. E. (2012). Gender stereotypes and workplace bias. Research in
+      Organizational Behavior, 32, 113–135. [Notes that structural safeguards do not
+      eliminate bias if underlying stereotypes are not addressed — dissent against treating
+      structural interventions as sufficient alone.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  Public DEI reporting that includes evaluation outcome analysis by demographic group is
+  a strong declared signal. Look for "pay equity review," "calibration session," "structured
+  rubric," and "blind review" terminology in sustainability and people strategy reports.

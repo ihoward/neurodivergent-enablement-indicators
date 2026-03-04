@@ -1,0 +1,67 @@
+id: NDI-mubms7-v1
+concept_id: NDI-mubms7
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews and legal filings referencing blanket documentation requirements
+      that apply uniformly regardless of transaction size or risk level.
+    - >
+      Annual reports or sustainability disclosures describing procurement, travel, or
+      expense policies without mention of risk tiering may indicate uniform treatment.
+  declared:
+    - >
+      Organization publicly states a risk-tiered or threshold-based documentation policy
+      where low-value or low-risk transactions require fewer steps and less documentation
+      than high-value or high-risk ones.
+    - >
+      Employee handbook or policy pages describe explicit monetary or risk thresholds
+      above which additional documentation requirements apply.
+  validated:
+    - >
+      Accredited verifier reviews policy documentation and confirms: (1) documented
+      thresholds exist that trigger additional documentation requirements, (2) transactions
+      below stated thresholds can be processed with reduced documentation, (3) the
+      threshold structure is applied consistently.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - annual_reports
+    - corporate_sustainability_reports
+    - legal_filings
+  declared:
+    - employee_handbook
+    - public_policy_pages
+    - procurement_policy_documentation
+  validated:
+    - internal_policy_documents
+    - operational_data
+
+citations:
+  supporting:
+    - >
+      Herd, P., & Moynihan, D. P. (2019). Administrative Burden: Policymaking by Other Means.
+      Russell Sage Foundation.
+    - >
+      Sunstein, C. R., & Thaler, R. H. (2008). Nudge: Improving Decisions about Health,
+      Wealth, and Happiness. Yale University Press. [Risk-proportionate design as a nudge
+      framework; blanket high-burden rules create opt-out friction for the majority.]
+  dissenting:
+    - >
+      Power, M. (1997). The Audit Society: Rituals of Verification. Oxford University Press.
+      [Argues that uniform documentation requirements serve legitimacy and accountability
+      functions beyond pure risk management — dissent applies where some uniformity is
+      institutionally necessary.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/neurodiversity
+  - glassdoor
+
+implementation_notes: |
+  Look for "de minimis" thresholds, tiered approval authority, or explicit "low-risk
+  exception" language in publicly available policy documentation. Absence of any tiering
+  language in public policy docs is a weak negative signal.

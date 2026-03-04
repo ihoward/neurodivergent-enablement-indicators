@@ -1,0 +1,81 @@
+id: NDI-ypwtie-v1
+concept_id: NDI-ypwtie
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee review platforms show complaints about expense reporting complexity,
+      excessive receipt requirements, slow reimbursements, or unclear submission procedures
+      in a statistically notable proportion of reviews.
+    - >
+      Job descriptions or benefits pages referencing "competitive expense policies" or
+      "streamlined reimbursement" indicate organizational awareness of process quality.
+    - >
+      Corporate sustainability or annual reports lack any reference to employee experience
+      with administrative overhead — absence of positive disclosure is a weak negative signal.
+  declared:
+    - >
+      The organization publicly describes its expense process as simplified or low-burden;
+      per-diem or flat-rate options are mentioned in employee handbook or benefits documentation.
+    - >
+      Careers or benefits pages describe a clear, documented expense submission process
+      with step counts or timelines stated.
+  validated:
+    - >
+      The organization submits its expense policy documentation to an accredited verifier
+      who confirms: (1) a per-diem or simplified receipt option exists, (2) the maximum
+      number of steps to submit a standard expense is documented and does not exceed a
+      reasonable threshold, (3) the process is accessible without informal knowledge.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - indeed_reviews
+    - blind_reviews
+    - corporate_sustainability_reports
+    - annual_reports
+  declared:
+    - employee_handbook
+    - careers_page
+    - benefits_documentation
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+
+citations:
+  supporting:
+    - >
+      Herd, P., & Moynihan, D. P. (2019). Administrative Burden: Policymaking by Other Means.
+      Russell Sage Foundation. [Establishes the concept of administrative burden as a structural
+      cost imposed disproportionately on those with lower administrative resources.]
+    - >
+      Madrian, B. C., & Shea, D. F. (2001). The power of suggestion: Inertia in 401(k)
+      participation and savings behavior. Quarterly Journal of Economics, 116(4), 1149–1187.
+      [Demonstrates how default complexity shapes participation outcomes independent of preference.]
+    - >
+      Doyle, N. (2020). Neurodiversity at work: A biopsychosocial model and the impact on
+      working adults. British Medical Bulletin, 135(1), 108–125.
+      [Establishes executive function demands of administrative processes as a barrier for
+      neurodivergent employees.]
+  dissenting:
+    - >
+      Weick, K. E. (1995). Sensemaking in Organizations. Sage.
+      [Argues that some documentation and process requirements serve legitimate sensemaking
+      functions; over-simplification may reduce accountability — dissent applies to extreme
+      simplification arguments.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  When using Glassdoor data, search for review clusters mentioning "expense," "reimbursement,"
+  "receipts," "approval," and "process" together. Look for time-to-reimbursement complaints
+  as a proxy for process complexity. Per-diem options are a strong positive signal that
+  can usually be confirmed from publicly available HR or benefits documentation.

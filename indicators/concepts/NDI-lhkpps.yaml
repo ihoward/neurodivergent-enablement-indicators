@@ -1,0 +1,19 @@
+id: NDI-lhkpps
+normalized_name: "glassdoor shows recurring noise distraction complaints"
+
+title: Inferred signal — recurring noise and distraction complaints in employee reviews
+
+description: |
+  Public employee review platforms show a statistically notable pattern of complaints
+  referencing noise, open-plan distraction, inability to concentrate, lack of quiet space,
+  or sensory overload in the work environment. This indicator is an inferred-layer signal
+  derived from unsolicited public review data and does not imply direct causal attribution.
+
+evidence_categories:
+  - inferred
+
+notes: |
+  ND rationale: Noise and distraction complaints in unselected review data indicate that
+  the physical work environment imposes concentration costs on a statistically significant
+  portion of employees. This is a structural risk signal for neurodivergent employees,
+  for whom noise exposure is likely to impose a disproportionately larger disruption cost.

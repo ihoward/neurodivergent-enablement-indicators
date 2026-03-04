@@ -1,0 +1,74 @@
+id: NDI-edqojx-v1
+concept_id: NDI-edqojx
+status: candidate
+criteria_version: 1
+
+criteria:
+  inferred:
+    - >
+      Employee reviews describe manager changes as abrupt, poorly communicated, or
+      unsupportive — with reviews noting the change as a major source of disruption,
+      requiring the employee to start from scratch.
+    - >
+      High manager turnover rates disclosed in employer profiles or sustainability reports
+      indicate structural instability in the manager relationship.
+  declared:
+    - >
+      Organization publicly describes a manager transition protocol that includes structured
+      handoff, a defined onboarding period between employee and new manager, and documented
+      expectation realignment.
+    - >
+      Employee handbook or people strategy documentation explicitly frames manager changes
+      as significant environmental events requiring active transition management.
+  validated:
+    - >
+      Accredited verifier confirms: (1) a documented manager transition protocol exists,
+      (2) the protocol includes a structured handoff document and a defined onboarding
+      window, (3) employees have a mechanism to raise transition-specific concerns without
+      formal escalation.
+
+evidence_sources:
+  inferred:
+    - glassdoor_reviews
+    - blind_reviews
+    - corporate_sustainability_reports
+    - annual_reports
+  declared:
+    - employee_handbook
+    - people_strategy_documentation
+    - public_policy_pages
+  validated:
+    - internal_policy_documents
+    - process_documentation
+    - employee_feedback_mechanisms
+
+citations:
+  supporting:
+    - >
+      Doyle, N. (2020). Neurodiversity at work. British Medical Bulletin, 135(1), 108–125.
+    - >
+      Hobfoll, S. E. (1989). Conservation of resources: A new attempt at conceptualizing
+      stress. American Psychologist, 44(3), 513–524. [Manager relationship as a key
+      environmental resource; loss of this resource triggers conservation-of-resources
+      stress response.]
+    - >
+      Barkley, R. A. (2012). Executive Functions. Guilford Press.
+  dissenting:
+    - >
+      Graen, G. B., & Uhl-Bien, M. (1995). Relationship-based approach to leadership:
+      Development of leader–member exchange (LMX) theory of leadership. Leadership
+      Quarterly, 6(2), 219–247. [Notes that new manager relationships can develop rapidly
+      when both parties invest; dissent applies against treating all manager changes as
+      uniformly negative in well-designed transition contexts.]
+
+community_sources:
+  - reddit:r/adhd
+  - reddit:r/autism
+  - reddit:r/neurodiversity
+  - glassdoor
+  - blind
+
+implementation_notes: |
+  Look for "new manager" and "change in management" as search terms in review analysis.
+  Reviews that describe accommodation arrangements or work style agreements needing to
+  be renegotiated from scratch are particularly high-value signals for this indicator.
