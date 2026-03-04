@@ -1,0 +1,36 @@
+id: NDI-rfdub6-v1
+concept_id: NDI-rfdub6
+
+criteria:
+  inferred: |
+    Look for publicly described coaching, mentoring, or professional development
+    programs that do not reference accommodation or disability processes as an
+    entry point. Employee reviews mentioning access to coaching or work-style
+    support as a general benefit are positive signals. Programs gated by
+    manager referral or HR involvement only may indicate access barriers.
+
+  declared: |
+    The organization publicly describes coaching or support programs as available
+    to all employees, without requiring disclosure of neurodivergent identity
+    or medical condition as a prerequisite. This may appear in benefits
+    descriptions, employee handbook sections, or DEI program summaries.
+
+  validated: |
+    The organization submits documentation to an accredited verifier confirming
+    that its coaching or professional development programs: (1) do not require
+    medical disclosure as a precondition, (2) are available to all employees,
+    and (3) include at least one program or resource that addresses executive
+    function, communication, or work organization skills.
+
+citations:
+  supporting:
+    - >
+      Doyle, N., & McDowall, A. (2019). Context is everything — a review of
+      neurodiversity in practice. In A. Donnelly & M. Sheridan (Eds.),
+      Neurodiversity at Work. Routledge.
+    - >
+      Austin, R. D., & Pisano, G. P. (2017). Neurodiversity as a competitive
+      advantage. Harvard Business Review, 95(3), 96–103.
+  dissenting: []
+
+community_sources: []

@@ -1,0 +1,33 @@
+# NEI Standard Release Manifest Template
+#
+# Copy this file to releases/NDR-<version>.yaml and populate it.
+# All referenced indicator IDs must be Standard versions (NDI-xxxxxx-vN).
+# Proposed and Candidate indicators must NOT appear in a release.
+#
+# Run tools/validation_scripts.py to verify integrity before submitting.
+
+release_id: NDR-x.x.x
+taxonomy_id: NDT-x.x.x
+release_date: YYYY-MM-DD
+status: draft  # draft | published
+
+description: |
+  [Brief description of what this release contains and what changed from
+  the previous release. Reference any significant additions or retirements.]
+
+indicators:
+  - NDI-xxxxxx-v1
+  - NDI-xxxxxx-v1
+  # Add all standard indicator versions included in this release.
+
+changes_from_previous:
+  added:
+    - NDI-xxxxxx-v1  # Brief note on what was added
+  updated:
+    - NDI-xxxxxx-v2  # Brief note on what changed and why
+  retired: []
+
+approved_by:
+  - name: ""
+    role: ""
+    date: YYYY-MM-DD

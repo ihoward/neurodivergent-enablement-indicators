@@ -1,0 +1,33 @@
+id: NDI-2cdbgj-v1
+concept_id: NDI-2cdbgj
+
+criteria:
+  inferred: |
+    Look for employee reviews on platforms such as Glassdoor or Blind that
+    reference administrative burden, confusing expense or approval processes,
+    or difficulty navigating internal systems. Job descriptions referencing
+    proficiency with internal tooling may indicate process complexity.
+    Absence of such complaints in a statistically meaningful sample is a
+    positive signal.
+
+  declared: |
+    The organization publicly documents its expense reporting, procurement, or
+    administrative processes in accessible format (e.g., employee handbook,
+    public intranet policy, onboarding documentation excerpt). The process
+    is described step-by-step without assuming prior knowledge.
+
+  validated: |
+    The organization submits process documentation to an accredited verifier
+    demonstrating that administrative processes are documented end-to-end,
+    accessible without organizational social knowledge, and have been reviewed
+    for cognitive load by a qualified reviewer.
+
+citations:
+  supporting:
+    - >
+      Doyle, N. (2020). Neurodiversity at work: A biopsychosocial model and the
+      impact on working adults. British Medical Bulletin, 135(1), 108–125.
+      https://doi.org/10.1093/bmb/ldaa021
+  dissenting: []
+
+community_sources: []

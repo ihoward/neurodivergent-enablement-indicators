@@ -1,0 +1,36 @@
+release_id: NDR-1.0.0
+taxonomy_id: NDT-1.0.0
+release_date: 2026-03-04
+status: published
+
+description: |
+  Initial release of the Neurodivergent Enablement Indicators framework.
+  Establishes the core taxonomy with six domains and seven standard indicators
+  covering administrative accessibility, performance evaluation, organizational
+  clarity, sensory environment, support infrastructure, and governance and justice.
+
+indicators:
+  - NDI-2cdbgj-v1
+  - NDI-hgbbzn-v1
+  - NDI-nl3yam-v1
+  - NDI-ztoto2-v1
+  - NDI-eohpdo-v1
+  - NDI-rfdub6-v1
+  - NDI-fkbdsm-v1
+
+changes_from_previous:
+  added:
+    - NDI-2cdbgj-v1  # Administrative processes are simplified and accessible
+    - NDI-hgbbzn-v1  # Performance evaluation based on output rather than style
+    - NDI-nl3yam-v1  # Roles and responsibilities clearly defined
+    - NDI-ztoto2-v1  # Workplace noise actively managed
+    - NDI-eohpdo-v1  # Manager transitions treated as significant environmental changes
+    - NDI-rfdub6-v1  # Coaching available without neurodivergent disclosure
+    - NDI-fkbdsm-v1  # Procedural fairness in investigations
+  updated: []
+  retired: []
+
+approved_by:
+  - name: atypical.biz
+    role: Primary maintainer
+    date: 2026-03-04

@@ -1,0 +1,32 @@
+id: NDI-nl3yam-v1
+concept_id: NDI-nl3yam
+
+criteria:
+  inferred: |
+    Look for employee reviews referencing confusion about responsibilities,
+    unclear reporting lines, or role ambiguity as recurring complaints. Job
+    descriptions that provide clear scope and boundaries are a positive signal.
+    Organizational charts or team structures that are publicly accessible
+    indicate structural transparency.
+
+  declared: |
+    The organization publicly states that role definitions, reporting structures,
+    and decision authorities are documented. Published job architectures,
+    publicly available organizational charts, or employee handbook sections
+    describing role clarity practices satisfy this criterion.
+
+  validated: |
+    The organization submits role documentation to an accredited verifier who
+    confirms that a statistically representative sample of roles have: (1) written
+    role descriptions, (2) documented reporting relationships, and (3) explicit
+    decision authority boundaries.
+
+citations:
+  supporting:
+    - >
+      Doyle, N. (2020). Neurodiversity at work: A biopsychosocial model and the
+      impact on working adults. British Medical Bulletin, 135(1), 108–125.
+      https://doi.org/10.1093/bmb/ldaa021
+  dissenting: []
+
+community_sources: []

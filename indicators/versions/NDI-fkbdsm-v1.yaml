@@ -1,0 +1,36 @@
+id: NDI-fkbdsm-v1
+concept_id: NDI-fkbdsm
+
+criteria:
+  inferred: |
+    Look for legal filings, EEOC charges, or news reports documenting irregular
+    or inconsistent application of disciplinary procedures. Employee reviews
+    that reference inconsistent, opaque, or retaliatory investigation processes
+    are relevant signals. Conversely, stated commitments to procedural fairness
+    in public-facing legal or compliance disclosures are positive signals.
+
+  declared: |
+    The organization publicly describes its grievance and disciplinary procedures,
+    including the steps followed, the rights of affected parties to respond,
+    and the timeline for resolution. This may appear in employee handbooks,
+    published codes of conduct, or HR policy documents.
+
+  validated: |
+    The organization submits its grievance and disciplinary procedure documentation
+    to an accredited verifier who confirms: (1) affected parties are informed
+    of process steps in writing, (2) a meaningful response opportunity exists
+    before final determination, (3) written outcomes are provided, and
+    (4) procedures are applied consistently across employee levels.
+
+citations:
+  supporting:
+    - >
+      Lind, E. A., & Tyler, T. R. (1988). The Social Psychology of Procedural
+      Justice. Plenum Press.
+    - >
+      Colquitt, J. A. (2001). On the dimensionality of organizational justice:
+      A construct validation of a measure. Journal of Applied Psychology,
+      86(3), 386–400. https://doi.org/10.1037/0021-9010.86.3.386
+  dissenting: []
+
+community_sources: []

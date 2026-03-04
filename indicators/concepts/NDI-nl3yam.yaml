@@ -1,0 +1,15 @@
+id: NDI-nl3yam
+normalized_name: "roles and boundaries clearly defined"
+
+title: Roles and responsibilities are clearly and explicitly defined
+
+description: |
+  The organization maintains clear, written definitions of roles, responsibilities,
+  and decision boundaries. Employees can determine from documented sources what
+  they are accountable for, who they report to, and what decisions they are
+  authorized to make without relying on informal clarification or social inference.
+
+evidence_categories:
+  - inferred
+  - declared
+  - validated

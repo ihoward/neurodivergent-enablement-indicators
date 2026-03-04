@@ -1,0 +1,39 @@
+id: NDI-ztoto2-v1
+concept_id: NDI-ztoto2
+
+criteria:
+  inferred: |
+    Look for employee reviews referencing open-plan noise, inability to
+    concentrate, or lack of quiet space as recurring complaints. Office
+    design descriptions in job postings or company profiles that mention
+    acoustic design, phone booths, or quiet zones are positive signals.
+    Companies with remote or hybrid policies that enable noise self-management
+    receive partial credit on this criterion.
+
+  declared: |
+    The organization publicly states it provides access to quiet or low-stimulation
+    work environments. This may include descriptions of office design, policies
+    regarding noise in shared spaces, or stated availability of remote work
+    options for noise management purposes.
+
+  validated: |
+    The organization submits evidence to an accredited verifier demonstrating
+    that: (1) at least one category of low-stimulation workspace is available
+    to all employees, (2) a documented noise or sensory policy exists, or
+    (3) remote/hybrid arrangements are available without requiring medical
+    justification.
+
+citations:
+  supporting:
+    - >
+      Cheryan, S., Ziegler, S. A., Plaut, V. C., & Meltzoff, A. N. (2014).
+      Designing classrooms to maximize student achievement. Policy Insights from
+      the Behavioral and Brain Sciences, 1(1), 4–12.
+      https://doi.org/10.1177/2372732214548677
+    - >
+      Doyle, N. (2020). Neurodiversity at work: A biopsychosocial model and the
+      impact on working adults. British Medical Bulletin, 135(1), 108–125.
+      https://doi.org/10.1093/bmb/ldaa021
+  dissenting: []
+
+community_sources: []

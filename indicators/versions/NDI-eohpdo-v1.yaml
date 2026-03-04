@@ -1,0 +1,32 @@
+id: NDI-eohpdo-v1
+concept_id: NDI-eohpdo
+
+criteria:
+  inferred: |
+    Look for employee reviews referencing manager changes as disruptive or
+    poorly handled. Conversely, reviews that note structured transitions or
+    continuity of support through management changes are positive signals.
+    High manager turnover rates disclosed in ESG or culture reports may
+    indicate structural instability.
+
+  declared: |
+    The organization publicly describes a manager transition process that
+    includes structured handoff, time for relationship development, and
+    documented context transfer. This may appear in employee handbook sections,
+    manager training materials made public, or HR policy documents.
+
+  validated: |
+    The organization submits documentation of its manager transition protocol
+    to an accredited verifier who confirms the protocol includes: (1) a
+    structured handoff document, (2) a defined onboarding period with the new
+    manager, and (3) employee-initiated check-ins during the transition period.
+
+citations:
+  supporting:
+    - >
+      Doyle, N. (2020). Neurodiversity at work: A biopsychosocial model and the
+      impact on working adults. British Medical Bulletin, 135(1), 108–125.
+      https://doi.org/10.1093/bmb/ldaa021
+  dissenting: []
+
+community_sources: []
