@@ -1,0 +1,37 @@
+{
+  "example_id": "EX-00002",
+  "source_type": "job_posting",
+  "source_description": "Software engineer job description from a financial services company, 2025",
+  "text": "We're looking for a passionate team player who thrives in a fast-paced, high-energy environment. You'll need to be a strong communicator who can rally people around ideas and build relationships across the org. We move fast and break things — we need someone who is comfortable with ambiguity and can read the room. Culture fit is important to us: we hire for values alignment and the right attitude as much as technical skill.",
+  "indicators": [
+    {
+      "indicator_id": "NDI-g7i2ad",
+      "version": "NDI-g7i2ad-v1",
+      "title": "Culture messaging avoids narrow conformity signalling and culture-fit boasting",
+      "evidence_layer": "inferred",
+      "signal": "negative",
+      "evidence_basis": "Job description explicitly states 'culture fit is important to us' and prioritises 'the right attitude', 'reading the room', 'rallying people', and 'high-energy' — all style-based criteria applied to a technical role.",
+      "reasoning": "NDI-g7i2ad assesses whether culture communications signal that behavioural conformity is a prerequisite for success. This job description contains multiple explicit conformity signals: 'culture fit is important', 'hire for... the right attitude', 'read the room', and 'build relationships across the org'. Phrases like 'high-energy environment' and 'rally people' signal a preference for extroverted, neurotypical-presenting communication styles. The explicit weighting of 'values alignment and attitude' alongside technical skill for a technical role is a textbook negative signal for this indicator."
+    },
+    {
+      "indicator_id": "NDI-yatlql",
+      "version": "NDI-yatlql-v1",
+      "title": "Hiring patterns and signals avoid implicit bias toward behavioral sameness",
+      "evidence_layer": "inferred",
+      "signal": "negative",
+      "evidence_basis": "Job description screens for 'strong communicator', 'read the room', and 'culture fit' in a technical role — criteria that select for behavioural presentation rather than capability.",
+      "reasoning": "NDI-yatlql targets implicit bias toward behavioural sameness in hiring signals. This posting uses language that screens for social style alongside (and partly above) technical competence. 'Strong communicator' and 'read the room' are soft criteria that can function as filters against autistic, ADHD, and otherwise neurodivergent candidates whose work quality may be high but whose communication style differs. The phrase 'comfortable with ambiguity' is ambiguous — it could refer to tolerance for unclear requirements (reasonable) or to comfort navigating unstructured social environments (a potential bias signal)."
+    }
+  ],
+  "non_indicators": [
+    {
+      "description": "'Comfortable with ambiguity' as a potential role clarity concern.",
+      "reason": "NDI-nl3yam (roles clearly defined) assesses documented role scope and accountability, not whether individuals are comfortable with ambiguity as a personality trait. The phrase in the job posting is a candidate screening criterion, not evidence about how roles are actually defined at the organization."
+    },
+    {
+      "description": "'We move fast and break things' as a change management concern.",
+      "reason": "This phrase is culture messaging, not evidence of how the organization actually handles change to work arrangements. NDI-eohpdo and NDI-mmp2kt require observable organizational practices around transitions, not slogans."
+    }
+  ],
+  "notes": "Job postings are a valid inferred-layer source for NDI-g7i2ad and NDI-yatlql specifically. They are less reliable for indicators that require evidence of internal practices (such as role clarity or performance evaluation criteria)."
+}

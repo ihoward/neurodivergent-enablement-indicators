@@ -1,0 +1,37 @@
+{
+  "example_id": "EX-00003",
+  "source_type": "employee_handbook",
+  "source_description": "Excerpt from a publicly available employee handbook (HR policy section), 2024",
+  "text": "Manager Transitions\n\nWhen an employee's direct manager changes, the following process applies:\n\n1. The outgoing manager completes a structured handoff document covering: current priorities, in-progress work, documented accommodation arrangements, and communication preferences.\n2. The new manager and employee hold a formal onboarding meeting within the first week, using the handoff document as a basis.\n3. A 60-day adjustment period is recognized during which performance expectations are held stable and no formal performance review is initiated.\n4. Employees may request an additional adjustment period via HR if the transition involves significant working style differences.\n\nManager transitions are treated as material changes to an employee's working environment and managed accordingly.",
+  "indicators": [
+    {
+      "indicator_id": "NDI-eohpdo",
+      "version": "NDI-eohpdo-v1",
+      "title": "Manager transitions are treated as significant environmental changes",
+      "evidence_layer": "declared",
+      "signal": "positive",
+      "evidence_basis": "Handbook contains a documented manager transition process including structured handoff, formal onboarding meeting, 60-day adjustment period with stable expectations, and explicit framing as a 'material change'.",
+      "reasoning": "NDI-eohpdo's declared criteria requires that the organization publicly documents that manager transitions include structured handoffs and adjustment periods. This handbook excerpt satisfies all elements: (1) structured handoff document with specified content, (2) formal onboarding meeting with the new manager, (3) explicit adjustment period with defined protections (no performance review), (4) optional extension mechanism. The final sentence explicitly frames manager transitions as 'material changes to working environment' — directly matching the indicator's framing. This is a strong positive declared signal."
+    },
+    {
+      "indicator_id": "NDI-edqojx",
+      "version": "NDI-edqojx-v1",
+      "title": "Manager transitions are treated as material work environment changes",
+      "evidence_layer": "declared",
+      "signal": "positive",
+      "evidence_basis": "Same policy document — the handbook explicitly states manager transitions are 'material changes to an employee's working environment' and specifies a documented handoff protocol and adjustment period.",
+      "reasoning": "NDI-edqojx is the candidate-release indicator covering the same domain as NDI-eohpdo but with additional specificity around documented handoff protocols and expectation re-alignment conversations. This handbook satisfies both: handoff documentation is required (with specified content fields), and the onboarding meeting explicitly uses the handoff document as a basis for expectation alignment. The 60-day stable-expectations period goes beyond the standard NDI-eohpdo criteria and is particularly strong evidence for NDI-edqojx's emphasis on explicit adjustment periods."
+    },
+    {
+      "indicator_id": "NDI-rfdub6",
+      "version": "NDI-rfdub6-v1",
+      "title": "Coaching and support are available without requiring neurodivergent disclosure",
+      "evidence_layer": "declared",
+      "signal": "positive",
+      "evidence_basis": "The handoff document includes 'documented accommodation arrangements' as a required field — suggesting accommodations are tracked and transferred without requiring re-disclosure.",
+      "reasoning": "The inclusion of 'documented accommodation arrangements' in the structured handoff is a positive signal for NDI-rfdub6. It suggests accommodations survive manager transitions without requiring the employee to re-disclose to each new manager. However, this is a weak positive — the handbook does not explicitly state that coaching or support is available without disclosure in general. The handoff provision addresses a specific transition scenario. This would need corroborating evidence to fully satisfy the declared criteria for NDI-rfdub6."
+    }
+  ],
+  "non_indicators": [],
+  "notes": "This example demonstrates how a single policy document can provide strong evidence for multiple indicators. NDI-eohpdo and NDI-edqojx overlap significantly — in a real assessment, both would be noted but the evaluator should be aware they address the same underlying practice. The NDI-rfdub6 signal is intentionally marked as weaker — this illustrates calibrated reasoning rather than over-claiming."
+}

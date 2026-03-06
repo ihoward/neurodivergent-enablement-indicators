@@ -1,0 +1,42 @@
+{
+  "example_id": "EX-00001",
+  "source_type": "glassdoor_review",
+  "source_description": "Employee review from a mid-size technology company, posted 2024",
+  "text": "The expense system is an absolute nightmare. You have to attach a receipt for literally everything, even a $4 coffee. Then there are three different forms depending on what you're claiming, and it takes 6-8 weeks to get reimbursed. I've given up claiming small things because it's not worth the effort. The whole process seems designed to discourage you from actually using your allowance.",
+  "indicators": [
+    {
+      "indicator_id": "NDI-2cdbgj",
+      "version": "NDI-2cdbgj-v1",
+      "title": "Administrative processes are simplified and accessible",
+      "evidence_layer": "inferred",
+      "signal": "negative",
+      "evidence_basis": "Reviewer describes mandatory receipts for low-value items, multiple form types, 6-8 week reimbursement cycle, and self-reported avoidance of claiming due to process complexity.",
+      "reasoning": "The inferred criteria for NDI-2cdbgj asks for patterns of administrative burden complaints in public reviews. This review describes a process that requires navigating multiple form types (complexity), applies blanket receipt requirements regardless of value (disproportionate), and has a friction level sufficient to deter employees from completing the process. All three are consistent with the criterion. The reviewer's self-reported avoidance ('I've given up') is a strong behavioural signal of excessive cognitive load."
+    },
+    {
+      "indicator_id": "NDI-ypwtie",
+      "version": "NDI-ypwtie-v1",
+      "title": "Expense processes minimize documentation burden",
+      "evidence_layer": "inferred",
+      "signal": "negative",
+      "evidence_basis": "Receipt required for $4 purchase; no per-diem or simplified pathway mentioned.",
+      "reasoning": "NDI-ypwtie specifically addresses documentation burden in expense processes. The reviewer describes per-item receipt requirements with no indication of per-diem options or flat-rate approaches. The absence of any simplified pathway, combined with the description of the process as designed to 'discourage' use, is a clear negative signal for this indicator."
+    },
+    {
+      "indicator_id": "NDI-qqcvqh",
+      "version": "NDI-qqcvqh-v1",
+      "title": "Inferred signal — recurring administrative burden complaints in employee reviews",
+      "evidence_layer": "inferred",
+      "signal": "negative",
+      "evidence_basis": "Single review describing administrative burden. Note: NDI-qqcvqh requires a statistically notable pattern, not a single review.",
+      "reasoning": "This review is consistent with the type of complaint NDI-qqcvqh tracks, but the indicator requires a pattern across multiple reviews, not a single data point. A single review can contribute to a pattern assessment but does not on its own satisfy the criterion. This example illustrates the distinction between an individual complaint and a statistically meaningful pattern."
+    }
+  ],
+  "non_indicators": [
+    {
+      "description": "The reviewer mentions it 'takes 6-8 weeks to get reimbursed'.",
+      "reason": "Reimbursement timing is an operational metric, not directly addressed by any current NEI indicator. It may be symptomatic of process complexity (captured by NDI-2cdbgj) but is not itself an indicator criterion."
+    }
+  ],
+  "notes": "NDI-qqcvqh is included here to illustrate the difference between a single complaint and a statistically notable pattern. In a real assessment, this review would contribute to a corpus analysis across many reviews, not trigger NDI-qqcvqh on its own."
+}
