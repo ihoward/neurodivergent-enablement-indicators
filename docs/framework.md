@@ -125,7 +125,7 @@ These domains are defined in the taxonomy node table for each taxonomy version.
 
 | Name | Organization | Role |
 |---|---|---|
-| atypical.biz team | atypical.biz | Primary maintainer |
+| atypical.business team | atypical.business | Primary maintainer |
 
 *To propose a maintainer addition, open a governance proposal per [`GOVERNANCE.md`](../GOVERNANCE.md).*
 

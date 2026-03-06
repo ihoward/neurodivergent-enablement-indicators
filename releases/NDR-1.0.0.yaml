@@ -31,6 +31,6 @@ changes_from_previous:
   retired: []
 
 approved_by:
-  - name: atypical.biz
+  - name: atypical.business
     role: Primary maintainer
     date: 2026-03-04

@@ -25,7 +25,7 @@ Maintainers are responsible for:
 - Approving and publishing releases
 - Maintaining documentation quality
 
-Maintainers are appointed by atypical.biz. The list of current maintainers is in [`docs/framework.md`](docs/framework.md).
+Maintainers are appointed by atypical.business. The list of current maintainers is in [`docs/framework.md`](docs/framework.md).
 
 ### Contributors
 
@@ -143,7 +143,7 @@ If a contributor believes a decision was made incorrectly:
 
 1. Open an issue describing the objection and the evidence for reconsideration.
 2. Maintainers will review and respond within 30 days.
-3. If unresolved, the matter is escalated to atypical.biz for final determination.
+3. If unresolved, the matter is escalated to atypical.business for final determination.
 
 ---
 
@@ -153,4 +153,4 @@ Changes to this document follow the same proposal process as indicator changes a
 
 ---
 
-*Maintained by [atypical.biz](https://atypical.biz)*
+*Maintained by [atypical.business](https://atypical.business)*

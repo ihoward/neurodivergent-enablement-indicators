@@ -162,7 +162,7 @@ The current standard release is [`NDR-1.0.0`](releases/NDR-1.0.0.yaml) — 7 ind
 
 The NEI taxonomy and indicators are licensed under **Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)**.
 
-Commercial use requires a license from atypical.biz. See [`LICENSE`](LICENSE) for full terms.
+Commercial use requires a license from atypical.business. See [`LICENSE`](LICENSE) for full terms.
 
 ---
 
@@ -172,4 +172,4 @@ See [`GOVERNANCE.md`](GOVERNANCE.md) for the proposal process, lifecycle definit
 
 ---
 
-*Maintained by [atypical.biz](https://atypical.biz) — licensing@atypical.biz*
+*Maintained by [atypical.business](https://atypical.business) — licensing@atypical.business*
