@@ -1,0 +1,45 @@
+# NACE Rev.2 Classification Metadata
+# ---
+# This file describes the NACE Rev.2 classification system as used by
+# NEI Sector Relevance mappings.
+
+id: NACE-Rev2
+title: Statistical Classification of Economic Activities in the European Community, Revision 2
+abbreviation: NACE Rev.2
+version: Rev.2
+issuer: Eurostat
+jurisdiction: European Union
+url: https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Statistical_classification_of_economic_activities_in_the_European_Community_(NACE)
+status: active
+
+notes: |
+  NACE Rev.2 is the standard European classification of economic activities,
+  maintained by Eurostat. It is used as the initial classification system for
+  NEI Sector Relevance mappings because of its wide adoption across EU member
+  states and its compatibility with international equivalents (ISIC Rev.4,
+  NAICS cross-walks).
+
+  NEI uses Division level (2-digit numeric codes) for initial mappings.
+  This level offers sufficient granularity to differentiate sector contexts
+  without requiring indicator-level mappings for hundreds of sub-groups.
+
+levels:
+  - id: section
+    code_format: single letter (A–U)
+    description: Highest level; broad economic category
+  - id: division
+    code_format: 2-digit numeric (01–99)
+    description: Primary mapping level used in NEI Sector Relevance
+  - id: group
+    code_format: 3-digit (e.g. 62.0)
+    description: Not used in initial mappings; available for future refinement
+  - id: class
+    code_format: 4-digit (e.g. 62.01)
+    description: Not used in initial mappings
+
+nei_usage:
+  mapping_level: division
+  rationale: |
+    Division level provides sufficient industry differentiation for an
+    advisory applicability mapping. Using class or group level would
+    imply precision that the current draft mappings do not support.

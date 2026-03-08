@@ -1,0 +1,603 @@
+# NEI Sector Relevance Mappings — NACE Rev.2, Division Level
+# ---
+# This file is the source of truth for NEI Sector Relevance mappings
+# using the NACE Rev.2 classification system at division level.
+#
+# STATUS: draft — mappings are early applicability judgments,
+# open to contributor review and not yet validated.
+#
+# Mapping methodology is described in /nei/sectors/method/.
+
+schema: nei-sector-relevance-mappings
+classification_system: NACE-Rev2
+classification_version: Rev.2
+level: division
+status: draft
+review_status: unreviewed
+methodology_status: provisional
+notes: |
+  These mappings represent an initial applicability assessment by the
+  framework maintainer. They are based on practitioner judgment about
+  which NEI indicators are most relevant in each industry context.
+  They are not derived from empirical data and should not be treated
+  as definitive guidance.
+
+  Mappings may evolve through contributor input. See the contribution
+  guide for how to propose changes to sector relevance.
+
+relevance_levels:
+  - id: Core
+    description: Highly relevant in almost all organizations in this sector; likely to be a primary area of concern.
+  - id: High
+    description: Relevant to most organizations in this sector; commonly a material concern.
+  - id: Moderate
+    description: Relevant in many contexts within this sector; importance varies by organization size, type, and structure.
+  - id: Context-specific
+    description: Relevant in some sub-sectors or organizational contexts, but not universally applicable.
+  - id: Low
+    description: Less commonly a primary concern in this sector; may still apply in specific circumstances.
+
+sectors:
+
+  - code: "62"
+    label: "Computer programming, consultancy and related activities"
+    section: J
+    section_label: "Information and communication"
+    aliases:
+      - software
+      - software development
+      - technology consulting
+      - IT services
+      - tech
+      - computer programming
+      - SaaS
+      - product engineering
+    summary: >
+      Draft NEI sector relevance mapping for computer programming, technology
+      consultancy, and related information technology services.
+    mappings:
+
+      - indicator_concept_id: NDI-2cdbgj
+        title: "Administrative processes are simplified and accessible"
+        relevance: Core
+        rationale: >
+          Software and technology organisations commonly deploy layered internal
+          tooling — expense systems, project management platforms, HR portals,
+          approval workflows — that impose significant procedural complexity.
+          This cognitive overhead disproportionately affects neurodivergent
+          employees navigating multiple systems simultaneously.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-hgbbzn
+        title: "Performance evaluation is based on output rather than style"
+        relevance: Core
+        rationale: >
+          Despite prevalent output-focused rhetoric in technology culture,
+          evaluation in practice frequently incorporates stylistic criteria —
+          communication patterns in code review, "culture fit" assessments,
+          meeting conduct, and informal visibility signals. These criteria
+          can systematically disadvantage neurodivergent employees regardless
+          of technical contribution.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-nl3yam
+        title: "Roles and responsibilities are clearly and explicitly defined"
+        relevance: High
+        rationale: >
+          Matrix structures, cross-functional teams, and agile methodologies
+          are prevalent in technology organisations and frequently produce
+          ambiguity about role ownership, decision authority, and work
+          intake channels. Explicit role definitions are particularly
+          valuable in these environments.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-ztoto2
+        title: "Workplace noise is actively managed and minimized"
+        relevance: High
+        rationale: >
+          Open-plan office design remains the dominant model in technology
+          workplaces. Combined with active acoustic environments (video
+          calls, social interaction, music), this creates significant
+          sensory demands that are not systematically managed in most
+          organisations.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-eohpdo
+        title: "Manager transitions are treated as significant environmental changes"
+        relevance: High
+        rationale: >
+          Manager churn and team restructuring are common in technology
+          organisations, particularly at high-growth companies and during
+          periods of organisational change. Frequent transitions without
+          structured management affect stability for neurodivergent employees
+          who rely on established working relationships.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-rfdub6
+        title: "Coaching and support are available without requiring neurodivergent disclosure"
+        relevance: Moderate
+        rationale: >
+          Coaching and professional development support varies significantly
+          across technology organisations. Some invest heavily in universal
+          access to coaching; others gatekeep support behind performance
+          management processes. Disclosure risk in informal technology
+          cultures is lower than in some sectors but remains material.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-fkbdsm
+        title: "Investigations and disciplinary processes demonstrate procedural fairness"
+        relevance: Moderate
+        rationale: >
+          HR processes in technology organisations have historically been
+          inconsistent. Smaller companies may lack formal processes; larger
+          organisations vary considerably. Procedural fairness in disciplinary
+          and grievance processes is relevant but not uniformly a primary
+          concern across the sector.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+  - code: "64"
+    label: "Financial service activities, except insurance and pension funding"
+    section: K
+    section_label: "Financial and insurance activities"
+    aliases:
+      - banking
+      - bank
+      - financial services
+      - investment banking
+      - retail banking
+      - capital markets
+      - asset management
+      - fintech
+      - payments
+      - credit
+    summary: >
+      Draft NEI sector relevance mapping for banking, investment services,
+      and related financial service activities.
+    mappings:
+
+      - indicator_concept_id: NDI-hgbbzn
+        title: "Performance evaluation is based on output rather than style"
+        relevance: Core
+        rationale: >
+          Financial services culture places substantial emphasis on
+          presentation style, client-relationship conduct, and behavioral
+          conformity — particularly in client-facing and senior roles.
+          Evaluation criteria that incorporate stylistic dimensions alongside
+          quantitative performance metrics are the norm rather than the
+          exception in most financial services organisations.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-fkbdsm
+        title: "Investigations and disciplinary processes demonstrate procedural fairness"
+        relevance: Core
+        rationale: >
+          Financial services organisations operate under significant
+          regulatory scrutiny regarding employee conduct and internal
+          governance. Disciplinary and grievance processes are subject
+          to compliance frameworks, making procedural structure more
+          consistently present — though quality of implementation varies.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-rfdub6
+        title: "Coaching and support are available without requiring neurodivergent disclosure"
+        relevance: High
+        rationale: >
+          Formal hierarchical cultures and competitive environments in
+          financial services create elevated disclosure risk. Employees
+          may be reluctant to access accommodation or support through
+          formal channels. Universal coaching access — framed as
+          professional development rather than accommodation — is
+          particularly valuable in this context.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-nl3yam
+        title: "Roles and responsibilities are clearly and explicitly defined"
+        relevance: High
+        rationale: >
+          Large financial institutions have complex org structures with
+          overlapping mandates, matrix reporting lines, and regulatory
+          segregation-of-duties requirements. Role clarity is both a
+          regulatory concern and a neurodivergent enablement concern.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-ztoto2
+        title: "Workplace noise is actively managed and minimized"
+        relevance: High
+        rationale: >
+          Open trading floors, client-facing environments, and
+          open-plan office designs are prevalent in financial services.
+          Sensory demands in these environments are typically high
+          and are not systematically managed for neurodivergent employees.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-2cdbgj
+        title: "Administrative processes are simplified and accessible"
+        relevance: High
+        rationale: >
+          Compliance requirements create significant documentation and
+          approval burden in financial services. Expense processes,
+          trade approvals, regulatory filings, and HR processes all
+          carry procedural complexity that can be disproportionately
+          challenging for neurodivergent employees.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-eohpdo
+        title: "Manager transitions are treated as significant environmental changes"
+        relevance: Moderate
+        rationale: >
+          Manager stability varies significantly across financial services.
+          Traditional retail banking has relatively stable management
+          structures; investment banking and markets roles involve
+          higher turnover and restructuring frequency. This mapping
+          reflects the sector average.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+  - code: "29"
+    label: "Manufacture of motor vehicles, trailers and semi-trailers"
+    section: C
+    section_label: "Manufacturing"
+    aliases:
+      - automotive
+      - motor vehicles
+      - vehicle manufacturing
+      - car manufacturing
+      - auto industry
+      - manufacturing
+    summary: >
+      Draft NEI sector relevance mapping for motor vehicle manufacture
+      and related manufacturing activities.
+    mappings:
+
+      - indicator_concept_id: NDI-nl3yam
+        title: "Roles and responsibilities are clearly and explicitly defined"
+        relevance: Core
+        rationale: >
+          Manufacturing environments require explicit role and boundary
+          definitions for safety and operational reasons. Standard
+          operating procedures govern most production activities.
+          Role clarity is a fundamental operational requirement
+          that aligns directly with this indicator.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-hgbbzn
+        title: "Performance evaluation is based on output rather than style"
+        relevance: High
+        rationale: >
+          Production workers are typically evaluated on quantifiable
+          output metrics. However, management and office roles within
+          manufacturing organisations often retain style-based evaluation
+          norms. This indicator is most relevant for non-production
+          and supervisory roles.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-eohpdo
+        title: "Manager transitions are treated as significant environmental changes"
+        relevance: High
+        rationale: >
+          Shift supervisor and line manager changes affect workflow
+          predictability and established working relationships.
+          Production environments structured around team and shift
+          arrangements are particularly sensitive to supervisor
+          continuity.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-rfdub6
+        title: "Coaching and support are available without requiring neurodivergent disclosure"
+        relevance: High
+        rationale: >
+          Disclosure stigma is typically high in production and
+          manufacturing environments. Coaching and advisory support
+          is less commonly available as a universal professional
+          development resource. Access without disclosure is relevant
+          where it exists.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-fkbdsm
+        title: "Investigations and disciplinary processes demonstrate procedural fairness"
+        relevance: High
+        rationale: >
+          Unionised manufacturing environments typically have formal
+          grievance and disciplinary procedures. Quality varies;
+          procedural fairness in practice depends significantly on
+          local management culture and union representation.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-2cdbgj
+        title: "Administrative processes are simplified and accessible"
+        relevance: Moderate
+        rationale: >
+          Administrative complexity in manufacturing varies by role.
+          Production workers interact with relatively limited
+          administrative processes; supervisory and office roles
+          navigate HR, procurement, and compliance workflows of
+          variable complexity.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-ztoto2
+        title: "Workplace noise is actively managed and minimized"
+        relevance: Context-specific
+        rationale: >
+          Industrial noise in manufacturing environments is regulated
+          through occupational health and safety frameworks (PPE,
+          hearing protection, noise exposure limits) rather than
+          through workplace design for cognitive comfort. The
+          management approach is distinct from office-environment
+          noise management and the indicator's applicability should
+          be interpreted accordingly.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+  - code: "85"
+    label: "Education"
+    section: P
+    section_label: "Education"
+    aliases:
+      - education
+      - schools
+      - university
+      - universities
+      - higher education
+      - further education
+      - teaching
+      - academic
+      - academia
+      - school
+    summary: >
+      Draft NEI sector relevance mapping for educational institutions
+      including primary, secondary, and higher education.
+    mappings:
+
+      - indicator_concept_id: NDI-hgbbzn
+        title: "Performance evaluation is based on output rather than style"
+        relevance: Core
+        rationale: >
+          Academic evaluation frameworks frequently conflate research
+          output and teaching effectiveness with stylistic criteria —
+          collegial behavior, presentation norms, networking patterns,
+          and informal visibility. Performance assessment in academic
+          settings is particularly susceptible to style-based bias
+          because of the subjective nature of research and teaching
+          quality metrics.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-rfdub6
+        title: "Coaching and support are available without requiring neurodivergent disclosure"
+        relevance: Core
+        rationale: >
+          Disclosure stigma in academic environments is significant.
+          Competitive academic career structures, opaque evaluation
+          criteria, and cultures that prize intellectual conformity
+          create conditions where neurodivergent academics may avoid
+          disclosure. Access to coaching or advisory support through
+          universal channels — not framed as accommodation — is
+          particularly valuable.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-2cdbgj
+        title: "Administrative processes are simplified and accessible"
+        relevance: High
+        rationale: >
+          Educational administration is characterised by significant
+          process complexity — student record systems, grant
+          applications, ethics approvals, HR processes, and
+          timetabling. Universities in particular are noted for
+          administrative burden that is disproportionate to the
+          resources available to individual staff members.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-nl3yam
+        title: "Roles and responsibilities are clearly and explicitly defined"
+        relevance: High
+        rationale: >
+          Role boundaries in educational organisations are often
+          ambiguous — particularly the division between academic,
+          administrative, and pastoral responsibilities. Expectations
+          around research, teaching, and service contributions are
+          frequently implicit rather than documented.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-eohpdo
+        title: "Manager transitions are treated as significant environmental changes"
+        relevance: High
+        rationale: >
+          Supervision changes — PhD supervisors, heads of department,
+          academic line managers — can significantly disrupt established
+          working relationships in academic settings. Fixed-term
+          contracts and academic mobility create frequent transition
+          events that are often managed informally rather than
+          systematically.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-fkbdsm
+        title: "Investigations and disciplinary processes demonstrate procedural fairness"
+        relevance: High
+        rationale: >
+          Grievance and disciplinary processes in educational institutions
+          vary considerably. Power imbalances between junior and senior
+          academics, informal complaint-resolution cultures, and variable
+          HR capacity across institutions affect the consistency and
+          fairness of investigative processes.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-ztoto2
+        title: "Workplace noise is actively managed and minimized"
+        relevance: Moderate
+        rationale: >
+          Noise management in educational settings is highly variable.
+          Open-plan offices in administrative areas, shared academic
+          offices, and campus environments present challenges but are
+          not universally or systematically managed. This reflects
+          a moderate applicability across the sector.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+  - code: "86"
+    label: "Human health activities"
+    section: Q
+    section_label: "Human health and social work activities"
+    aliases:
+      - healthcare
+      - health
+      - hospital
+      - hospitals
+      - clinical
+      - NHS
+      - medicine
+      - nursing
+      - GP
+      - primary care
+      - secondary care
+    summary: >
+      Draft NEI sector relevance mapping for human health activities
+      including hospitals, clinics, and primary care services.
+    mappings:
+
+      - indicator_concept_id: NDI-nl3yam
+        title: "Roles and responsibilities are clearly and explicitly defined"
+        relevance: Core
+        rationale: >
+          Patient safety requirements mandate explicit role definitions,
+          clear lines of clinical authority, and documented handover
+          procedures. Role clarity is a fundamental clinical governance
+          requirement in health settings that directly maps to this
+          indicator's criteria.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-rfdub6
+        title: "Coaching and support are available without requiring neurodivergent disclosure"
+        relevance: Core
+        rationale: >
+          Healthcare professionals face elevated disclosure risk due to
+          regulatory frameworks governing fitness to practise. Disclosure
+          of neurodivergent conditions can trigger capability reviews
+          or affect professional registration. Access to coaching and
+          support through universal channels — not requiring disclosure
+          to a regulator or employer — is particularly material in
+          this sector.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-fkbdsm
+        title: "Investigations and disciplinary processes demonstrate procedural fairness"
+        relevance: Core
+        rationale: >
+          Clinical governance frameworks create significant investigative
+          activity — clinical incident reviews, capability processes,
+          fitness-to-practise hearings. Procedural fairness in these
+          processes is a patient safety concern as well as an employee
+          welfare concern. The high stakes of these processes make
+          this indicator particularly relevant.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-eohpdo
+        title: "Manager transitions are treated as significant environmental changes"
+        relevance: High
+        rationale: >
+          Rotational training structures in medicine and nursing produce
+          frequent supervisor and team changes. Junior doctors, nurses
+          in rotation, and allied health professionals routinely
+          experience significant transitions in working relationships
+          that are managed with limited formality.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-ztoto2
+        title: "Workplace noise is actively managed and minimized"
+        relevance: High
+        rationale: >
+          Clinical environments — emergency departments, wards, and
+          busy clinics — present high sensory demands including
+          unpredictable auditory stimuli, alarms, and overlapping
+          conversations. These are not systematically managed to
+          reduce neurodivergent-specific sensory impact, distinguishing
+          them from quiet clinical spaces where the indicator is
+          less applicable.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-2cdbgj
+        title: "Administrative processes are simplified and accessible"
+        relevance: High
+        rationale: >
+          Clinical documentation burden is substantial in healthcare —
+          patient records, prescription authorisation, referral pathways,
+          and compliance reporting. Electronic patient record systems
+          often impose significant procedural complexity on clinical
+          staff.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
+
+      - indicator_concept_id: NDI-hgbbzn
+        title: "Performance evaluation is based on output rather than style"
+        relevance: High
+        rationale: >
+          Clinical evaluation increasingly emphasises measurable outcomes,
+          but stylistic criteria — communication manner, bedside presentation,
+          collegial conduct — remain significant in appraisal and progression
+          decisions. This is particularly notable in consultant and senior
+          nursing appointments.
+        status: draft
+        review_status: unreviewed
+        source_type: practitioner-judgment
