@@ -1,13 +1,15 @@
 id: NDI-mubms7
 normalized_name: "documentation requirements scale proportionally to risk"
 
-title: Documentation requirements scale proportionally to risk
+title: Approval and documentation burdens are matched to the risk and responsibility involved
 
 description: |
-  The organization applies documentation and approval burdens in proportion to the actual
-  risk or dollar value of the action being taken. Low-risk, low-value items do not require
-  the same compliance overhead as high-risk decisions. Blanket documentation rules that
-  ignore risk level are treated as a design failure.
+  The organisation applies documentation and approval burdens in proportion to the actual
+  risk, value, and role relevance of the action being taken. Low-risk, low-value items
+  performed by employees whose core role is unrelated to the process should not require
+  the same compliance overhead as high-risk decisions made by responsible specialists.
+  Where documentation requirements do not reflect actual risk or role, this represents
+  a poor design outcome rather than a neutral default.
 
 evidence_categories:
   - inferred

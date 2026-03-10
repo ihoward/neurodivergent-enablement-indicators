@@ -1,13 +1,22 @@
 id: NDI-ztoto2
 normalized_name: "workplace noise minimized"
 
-title: Workplace noise is actively managed and minimized
+title: Workplace noise and sensory conditions are actively managed
 
 description: |
-  The organization takes deliberate steps to manage auditory and sensory input
-  in work environments. This may include access to quiet spaces, acoustic
-  treatment of common areas, policies around noise in shared spaces, or
-  flexibility to work in lower-stimulation environments.
+  The organisation takes deliberate steps to manage auditory and sensory input in work
+  environments. This may include access to quiet spaces, acoustic treatment of common
+  areas, policies around noise in shared spaces, or flexibility to work in lower-stimulation
+  environments.
+
+  Some employees, including some neurodivergent employees, may need sensory accommodations
+  to work effectively. Not all neurodivergent employees have sensory needs, and sensory
+  needs are not exclusive to neurodivergent employees. Where employees request sensory
+  adjustments, these should be available without undue barriers.
+
+  Public employee reviews showing a consistent pattern of complaints referencing open-plan
+  noise, inability to concentrate, or lack of quiet space are a relevant inferred signal
+  of insufficient sensory environment management.
 
 evidence_categories:
   - inferred

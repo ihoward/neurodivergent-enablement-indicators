@@ -1,13 +1,22 @@
 id: NDI-hgbbzn
 normalized_name: "evaluation based on output rather than style"
 
-title: Performance evaluation is based on output rather than style
+title: Performance evaluation systems assess outputs, not style or behavioural conformance
 
 description: |
-  The organization assesses employee performance based on the quality and outcomes
-  of work rather than stylistic conformance — such as communication style,
-  social presentation, eye contact, or adherence to unwritten behavioral norms.
-  Evaluation criteria are explicit, documented, and applied consistently.
+  The organisation's formal performance review and evaluation systems assess whether work
+  accomplishes what is needed, done well — not how it is presented, communicated, or styled.
+  Evaluation criteria do not primarily judge personality, communication manner, or subjective
+  "fit." Examples of weak feedback that should be actively discouraged include: "be more
+  proactive," "be more confident," and "improve your communication style." These describe
+  manner rather than outcome, and provide no actionable direction.
+
+  Neurodivergent communication and working styles should not be penalised merely for
+  differing from a neurotypical default.
+
+  This indicator is the parent of a cluster addressing specific aspects of evaluation
+  quality: NDI-fumd3q (structured, evidence-based evaluations), NDI-g4e5z4 (structural
+  bias checks), and NDI-v3a4ss (multi-rater review design).
 
 evidence_categories:
   - inferred

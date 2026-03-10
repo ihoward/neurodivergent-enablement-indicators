@@ -1,4 +1,6 @@
 id: NDI-xqahn3
+status: retired
+retired_into: NDI-hgbbzn
 normalized_name: "glassdoor shows recurring subjective evaluation complaints"
 
 title: Inferred signal — recurring subjective evaluation complaints in employee reviews

@@ -1,13 +1,16 @@
 id: NDI-fumd3q
 normalized_name: "reduce subjectivity in evaluations"
 
-title: Performance evaluations reduce subjectivity through structured criteria
+title: Performance evaluations are structured, evidence-based, and provide actionable feedback
 
 description: |
-  The organization requires that performance evaluations use structured, documented criteria
-  that limit the scope of purely subjective judgment. Evaluation frameworks define what
-  evidence is acceptable for each rating level, require concrete examples, and are reviewed
-  for inter-rater consistency. Assessors are trained in structured evaluation methodology.
+  The organisation's performance evaluation system uses documented criteria that are known
+  to employees before their review occurs. Employees should not have to infer how their
+  work will be evaluated from culture, personal impression, or past observation. Feedback
+  should be specific, proportionate to the magnitude of the performance event, and grounded
+  in observable actions and outcomes. Feedback should explain what happened, what effect it
+  had, and what different action or outcome is expected. Evaluation results are reviewed
+  for consistency across assessors to reduce idiosyncratic variance.
 
 evidence_categories:
   - inferred

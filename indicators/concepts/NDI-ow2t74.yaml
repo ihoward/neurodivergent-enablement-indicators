@@ -1,13 +1,20 @@
 id: NDI-ow2t74
 normalized_name: "priority authority is explicitly defined"
 
-title: Priority-setting authority is explicitly defined and accessible
+title: Priorities are set through a defined process and communicated explicitly to employees
 
 description: |
-  The organization maintains documented definitions of who holds authority to set, change,
-  and arbitrate competing priorities at each level of the organization. When priority
-  conflicts arise, the resolution pathway — including who decides and on what basis — is
-  known without requiring informal navigation or relationship inference.
+  The organisation maintains documented definitions of who holds authority to set, change,
+  and arbitrate competing priorities at each level. When priority conflicts arise, the
+  resolution pathway — including who decides and on what basis — is known without requiring
+  informal navigation or relationship inference. Priorities are communicated explicitly to
+  employees: employees should know which work takes precedence, when responses are expected,
+  and whether a new request changes existing priorities.
+
+  An important distinction applies: this indicator concerns whether the organisation has
+  a governance mechanism for priority conflicts — not whether priorities ever change. Some
+  priority change is expected in dynamic organisations. The absence of a mechanism for
+  resolving conflicts predictably is the failure mode this indicator addresses.
 
 evidence_categories:
   - inferred

@@ -6,21 +6,24 @@ criteria:
     Look for employee reviews on platforms such as Glassdoor or Blind that
     reference administrative burden, confusing expense or approval processes,
     or difficulty navigating internal systems. Job descriptions referencing
-    proficiency with internal tooling may indicate process complexity.
-    Absence of such complaints in a statistically meaningful sample is a
-    positive signal.
+    proficiency with internal tooling may indicate process complexity imposed
+    on non-specialist employees. Reviews describing specialist teams handling
+    corrections, validation, or normalisation of employee-submitted data are
+    positive signals.
 
   declared: |
-    The organization publicly documents its expense reporting, procurement, or
-    administrative processes in accessible format (e.g., employee handbook,
-    public intranet policy, onboarding documentation excerpt). The process
-    is described step-by-step without assuming prior knowledge.
+    The organisation publicly describes administrative processes in which
+    specialist teams — finance, HR, procurement, compliance — bear primary
+    responsibility for complexity. Descriptions of simplified employee-facing
+    entry points, specialist-side validation, or procurement commitments that
+    consider employee input burden satisfy this criterion.
 
   validated: |
-    The organization submits process documentation to an accredited verifier
-    demonstrating that administrative processes are documented end-to-end,
-    accessible without organizational social knowledge, and have been reviewed
-    for cognitive load by a qualified reviewer.
+    The organisation submits process documentation to an accredited verifier
+    demonstrating that administrative processes are designed so specialist
+    functions bear primary complexity, employee-facing steps are minimised,
+    and software or procurement choices are evaluated for burden on the
+    inputter, not just the specialist consumer.
 
 citations:
   supporting:

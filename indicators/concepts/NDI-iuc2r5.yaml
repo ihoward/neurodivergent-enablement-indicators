@@ -4,10 +4,15 @@ normalized_name: "work intake pathways exist and are respected"
 title: Defined work intake pathways exist and are consistently respected
 
 description: |
-  The organization has established documented channels through which work requests, task
+  The organisation has established documented channels through which work requests, task
   assignments, and project involvement are formally initiated. These pathways are respected
-  by all levels of the organization. Ad-hoc, relationship-driven, or channel-bypassing
-  requests are recognized as exceptions requiring explanation, not standard operating practice.
+  by all levels of the organisation. Ad-hoc, relationship-driven, or channel-bypassing
+  requests are recognised as exceptions requiring explanation, not standard operating practice.
+
+  Job postings that treat "comfortable with ambiguity" or "able to manage competing
+  priorities" as core candidate competencies — without describing an organisational system
+  for managing intake — are a relevant inferred signal that informal request culture is
+  normalised and structural intake design is absent.
 
 evidence_categories:
   - inferred

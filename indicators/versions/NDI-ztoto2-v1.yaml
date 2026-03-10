@@ -4,20 +4,24 @@ concept_id: NDI-ztoto2
 criteria:
   inferred: |
     Look for employee reviews referencing open-plan noise, inability to
-    concentrate, or lack of quiet space as recurring complaints. Office
+    concentrate, or lack of quiet space as recurring complaints. A consistent
+    pattern of such complaints across multiple reviewers and time periods is
+    treated as a structural signal rather than individual preference. Office
     design descriptions in job postings or company profiles that mention
     acoustic design, phone booths, or quiet zones are positive signals.
     Companies with remote or hybrid policies that enable noise self-management
     receive partial credit on this criterion.
 
   declared: |
-    The organization publicly states it provides access to quiet or low-stimulation
+    The organisation publicly states it provides access to quiet or low-stimulation
     work environments. This may include descriptions of office design, policies
     regarding noise in shared spaces, or stated availability of remote work
-    options for noise management purposes.
+    options for noise management purposes. Where employees request sensory
+    adjustments, the organisation describes a process for accessing these
+    without undue barriers.
 
   validated: |
-    The organization submits evidence to an accredited verifier demonstrating
+    The organisation submits evidence to an accredited verifier demonstrating
     that: (1) at least one category of low-stimulation workspace is available
     to all employees, (2) a documented noise or sensory policy exists, or
     (3) remote/hybrid arrangements are available without requiring medical

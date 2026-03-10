@@ -1,14 +1,28 @@
 id: NDI-mmp2kt
 normalized_name: "advance notice for material work changes"
 
-title: Material changes to work arrangements are communicated with advance notice
+title: Material changes are communicated with advance notice and planning rhythms are stable
 
 description: |
-  The organization provides timely advance notice when material changes to an employee's
+  The organisation provides timely advance notice when material changes to an employee's
   work context are imminent. Material changes include role modifications, reporting structure
-  changes, location or workspace changes, significant process changes, and priority realignments.
-  Notice is sufficient to allow meaningful preparation and is communicated through defined
-  channels rather than informal or last-minute disclosure.
+  changes, location or workspace changes, significant process changes, and priority
+  realignments. Notice is sufficient to allow meaningful preparation and is communicated
+  through defined channels rather than informal or last-minute disclosure.
+
+  Where processes or arrangements change, employees should be able to understand the delta —
+  what specifically changed from the previous version, not merely that a new version exists.
+  Change logs, revision notes, or version history that explain what changed and why are
+  more useful than version labels alone.
+
+  The organisation operates on a stable, documented planning rhythm — including meeting
+  cadences, review cycles, and decision checkpoints — that employees can rely on. A
+  predictable planning rhythm reduces the background uncertainty that makes organisational
+  life harder to navigate, especially for employees who depend on structural predictability.
+
+  A useful distinction applies between strategic announcements — which may have compressed
+  notice windows for confidentiality reasons — and individual role or arrangement changes,
+  which can typically be managed with meaningful advance notice.
 
 evidence_categories:
   - inferred

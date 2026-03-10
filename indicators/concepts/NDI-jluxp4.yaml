@@ -4,10 +4,19 @@ normalized_name: "workspace transitions are managed with advance notice"
 title: Workspace and location transitions are managed with advance notice
 
 description: |
-  The organization provides meaningful advance notice before requiring employees to
-  change their primary workspace, desk assignment, floor, building, or office location.
-  The transition process includes time to establish the new space before productive work
-  is expected. Involuntary, unannounced workspace moves are treated as process failures.
+  The organisation provides meaningful advance notice before requiring employees to change
+  their primary workspace, desk assignment, floor, building, or office location. The
+  transition process includes time to establish the new space before productive work is
+  expected. Where employees have no agency in the new configuration, the transition process
+  should account for the additional adjustment burden this creates. Research on workspace
+  transitions suggests that outcomes improve when employees have some input into how the
+  new space is set up, even within constraints. Involuntary, unannounced workspace moves
+  are treated as process failures.
+
+  This indicator addresses the physical transition management process specifically. It is
+  distinct from NDI-mmp2kt, which covers advance notice for material changes more broadly.
+  The focus here is the setup period, sensory recalibration, and practical continuity of
+  a physical working environment.
 
 evidence_categories:
   - inferred

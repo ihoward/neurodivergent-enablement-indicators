@@ -1,14 +1,25 @@
 id: NDI-teuy7w
 normalized_name: "audio notifications are configurable"
 
-title: Audio notifications and alert systems are user-configurable
+title: Notification settings in workplace tools are user-configurable and supported
 
 description: |
-  The organization's standard tooling — including communication platforms, monitoring
-  systems, and collaboration software — supports user configuration of audio alerts and
-  notifications. Employees are able to reduce, silence, or redirect notifications to
-  non-auditory channels. Default configurations are not forced to maintain high-frequency
-  audio interruption streams.
+  The organisation's standard tooling — including communication platforms, collaboration
+  software, and monitoring systems — supports user configuration of notification settings,
+  including audio alerts, visual notifications, frequency, and do-not-disturb or focus modes.
+  Employees are able to reduce, silence, or redirect notifications without this being
+  treated as non-compliance or unavailability. Default configurations are not forced to
+  maintain high-frequency interruption streams.
+
+  Procurement and configuration of workplace software should consider the notification
+  burden imposed on employees, not only the feature needs of primary specialist users.
+  Tools that default to high-interruption configurations without user override capability
+  represent an avoidable source of cognitive load.
+
+  Technical capability alone is not sufficient: the organisational culture must support
+  employees in using notification controls. Where configuring notifications off is
+  implicitly penalised — through social pressure, response-time expectations, or management
+  norms — the technical capability does not deliver its intended benefit.
 
 evidence_categories:
   - inferred

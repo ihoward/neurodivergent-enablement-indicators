@@ -1,13 +1,21 @@
 id: NDI-2cdbgj
 normalized_name: "administrative processes simplified expense reporting"
 
-title: Administrative processes are simplified and accessible
+title: Administrative complexity is borne by specialist functions, not front-line employees
 
 description: |
-  The organization designs administrative processes — such as expense reporting,
-  time tracking, procurement, and scheduling — to minimize cognitive load and
-  procedural complexity. Processes are documented, consistent, and do not require
-  navigating undocumented social knowledge to complete successfully.
+  Where an administrative process concerns information that is core to a specialist function —
+  such as finance, HR, compliance, or procurement — the complexity of managing that information
+  should sit primarily with that function, not with employees whose core role is unrelated.
+  Where complexity cannot be eliminated, it should be handled by the responsible specialist
+  team. Software and procurement decisions that optimise for specialist users while burdening
+  the larger population of employees entering data represent a known and avoidable source of
+  administrative burden.
+
+  This indicator is the parent of a cluster addressing specific aspects of administrative
+  burden: NDI-ypwtie (expense reimbursement), NDI-mubms7 (risk-proportionate documentation),
+  NDI-g4gu4o (deadline reminders and grace mechanisms), and NDI-qqcvqh (publicly observable
+  evidence of administrative burden).
 
 evidence_categories:
   - inferred

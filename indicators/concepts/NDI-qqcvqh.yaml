@@ -1,14 +1,16 @@
 id: NDI-qqcvqh
 normalized_name: "glassdoor shows recurring admin burden complaints"
 
-title: Inferred signal — recurring administrative burden complaints in employee reviews
+title: Recurring administrative burden complaints are publicly visible in employee reviews
 
 description: |
-  Public employee review platforms show a statistically notable pattern of complaints
-  referencing administrative burden, bureaucratic complexity, excessive documentation,
-  confusing processes, or difficulty navigating internal systems. This indicator is an
-  inferred-layer signal derived from unsolicited public review data and does not imply
-  direct causal attribution.
+  Public employee review platforms show a consistent pattern of complaints referencing
+  administrative burden, bureaucratic complexity, excessive documentation, confusing
+  processes, or difficulty navigating internal systems. This indicator treats recurring
+  public patterns as a legitimate signal because direct access to an organisation's
+  internal processes is rarely available to external reviewers. Where a consistent pattern
+  of complaints exists across multiple reviewers and time periods, it provides reasonable
+  evidence that the underlying issue is structural rather than individual.
 
 evidence_categories:
   - inferred

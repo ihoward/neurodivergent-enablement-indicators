@@ -1,14 +1,18 @@
 id: NDI-v3a4ss
 normalized_name: "avoid excessive 360 multirater review processes where subjectivity dominates"
 
-title: Multi-rater review processes avoid subjective dominance
+title: Peer and multi-rater review processes are structured and anchored to observable outputs
 
 description: |
-  The organization limits the use of 360-degree and multi-rater review processes where
-  the criteria evaluated are primarily stylistic, relational, or subjective. Where multi-rater
-  processes are used, criteria are structured and anchored to observable behaviors or outputs.
-  Administrative complexity of soliciting, aggregating, and calibrating multi-rater inputs
-  is treated as a cost to be justified.
+  Where the organisation uses 360-degree or multi-rater review processes, the criteria
+  evaluated are structured and anchored to observable behaviours and work outputs rather
+  than stylistic, relational, or subjective qualities. A meaningful distinction applies
+  between 360 processes used for development — which carry lower risk — and those used
+  for formal rating, ranking, or promotion decisions, where unstructured criteria amplify
+  the influence of social style and interpersonal preference. The latter require structured
+  criteria with observable anchors to reduce the risk of systematic disadvantage for
+  employees whose communication or presentation style differs from the evaluator's implicit
+  norm.
 
 evidence_categories:
   - inferred

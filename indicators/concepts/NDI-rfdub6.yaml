@@ -1,13 +1,19 @@
 id: NDI-rfdub6
 normalized_name: "coaching available without nd disclosure"
 
-title: Coaching and support are available without requiring neurodivergent disclosure
+title: Support and accommodations are accessible without requiring neurodivergent disclosure
 
 description: |
-  The organization provides access to coaching, mentoring, and work-style
-  support that employees can access without disclosing a neurodivergent identity,
-  diagnosis, or disability. Support is framed as universally available and
-  does not require a medical or HR-mediated accommodation process as a prerequisite.
+  The organisation provides access to coaching, mentoring, work-style support, and
+  accommodations that employees can access without disclosing a neurodivergent identity,
+  diagnosis, or disability. Both formal accommodation pathways and informal support routes
+  should be accessible. Support should not depend entirely on personal relationships or
+  manager goodwill — where an employee's access to adjustments is contingent on having
+  a supportive manager, the system is not functioning as a structural provision.
+
+  Manager referral should not be the sole gateway to support. Processes that require
+  manager approval before an employee can access coaching or adjustments create a
+  dependency on the manager relationship that many employees cannot rely on.
 
 evidence_categories:
   - inferred

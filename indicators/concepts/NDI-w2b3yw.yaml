@@ -1,14 +1,18 @@
 id: NDI-w2b3yw
 normalized_name: "workplace permanence home base exists"
 
-title: Employees have a consistent, designated workspace home base
+title: A consistent primary workspace is available to employees who need one
 
 description: |
-  The organization provides employees with a consistent, designated primary workspace
-  rather than requiring daily or frequent hot-desking, hoteling, or unassigned seating
-  arrangements. Where fully fixed desks are not available, a predictable and stable-enough
-  workspace arrangement is provided so that employees can establish a functioning physical
-  environment without daily setup overhead.
+  The organisation provides employees who need one with access to a consistent, designated
+  primary workspace rather than requiring daily or frequent hot-desking, hoteling, or
+  unassigned seating arrangements. Where fully fixed desks are not available, a predictable
+  and stable-enough workspace arrangement is provided so that employees can establish a
+  functioning physical environment without daily setup overhead. Access to a consistent
+  workspace should not require medical justification.
+
+  Fully remote arrangements satisfy this indicator through home environment control —
+  employees working from a stable home setup have effective workspace permanence.
 
 evidence_categories:
   - inferred

@@ -1,6 +1,7 @@
 id: NDI-rftx3v-v1
 concept_id: NDI-rftx3v
-status: candidate
+status: retired
+retired_into: NDI-fkbdsm
 criteria_version: 1
 
 criteria:

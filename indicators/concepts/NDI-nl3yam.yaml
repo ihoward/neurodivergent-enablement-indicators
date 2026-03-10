@@ -1,13 +1,24 @@
 id: NDI-nl3yam
 normalized_name: "roles and boundaries clearly defined"
 
-title: Roles and responsibilities are clearly and explicitly defined
+title: Role responsibilities and boundaries are clearly and explicitly defined
 
 description: |
-  The organization maintains clear, written definitions of roles, responsibilities,
-  and decision boundaries. Employees can determine from documented sources what
-  they are accountable for, who they report to, and what decisions they are
-  authorized to make without relying on informal clarification or social inference.
+  The organisation maintains clear, written definitions of roles, responsibilities, and
+  decision boundaries. Employees can determine from documented sources what they are
+  accountable for, who they report to, and what decisions they are authorised to make —
+  without relying on informal clarification or social inference. Equally, employees should
+  be able to determine what falls outside their role: what they are not expected to own,
+  decide, or absorb. Clarity about the boundaries of a role is as important as clarity
+  about its contents.
+
+  Public employee reviews show a consistent pattern of complaints referencing role ambiguity,
+  unclear ownership, or confusion about who decides what. Where such a pattern is present,
+  it is treated as a relevant signal that role clarity is structurally insufficient.
+
+  This indicator is the parent of a cluster: NDI-x77aga (protection from unauthorised
+  direction), NDI-iuc2r5 (defined work intake pathways), and NDI-sxflss (cross-functional
+  overlap governance).
 
 evidence_categories:
   - inferred

@@ -1,6 +1,7 @@
 id: NDI-oosjha-v1
 concept_id: NDI-oosjha
-status: candidate
+status: retired
+retired_into: NDI-fumd3q
 criteria_version: 1
 
 criteria:

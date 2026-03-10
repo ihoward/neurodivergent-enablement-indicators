@@ -1,6 +1,7 @@
 id: NDI-edqojx-v1
 concept_id: NDI-edqojx
-status: candidate
+status: retired
+retired_into: NDI-eohpdo
 criteria_version: 1
 
 criteria:

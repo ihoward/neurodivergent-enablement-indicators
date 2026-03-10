@@ -1,13 +1,16 @@
 id: NDI-ypwtie
 normalized_name: "expense processes minimize documentation burden"
 
-title: Expense processes minimize documentation burden
+title: Expense reimbursement processes are optimised for the employee submitting, not for the finance function
 
 description: |
-  The organization designs expense reimbursement and related financial processes to reduce
-  the documentation burden on employees. Per-diem options, simplified submission workflows,
-  and proportionate receipt requirements are preferred over exhaustive multi-document
-  submission processes. Cognitive overhead of compliance is treated as a real cost.
+  Expense reimbursement is a finance function's process executed by general employees — not
+  by finance specialists. The design of expense processes should reflect this: complexity
+  should sit with the finance function, not with the employee submitting. Per-diem or
+  flat-rate approaches are a strongly recommended example of good design — they remove the
+  requirement for itemised receipt management and place the burden of accounting on the
+  function responsible for that information. Other approaches that minimise employee-side
+  data entry, reduce itemisation requirements, or automate validation are similarly preferred.
 
 evidence_categories:
   - inferred

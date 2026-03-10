@@ -1,14 +1,24 @@
 id: NDI-x77aga
 normalized_name: "organizational clarity roles and boundaries prevent crossorganization intrusion"
 
-title: Role clarity and boundary governance prevent unsolicited cross-organizational intrusion
+title: Work is not redirected by individuals without authority to do so
 
 description: |
-  The organization maintains clear definitions of role scope and inter-team boundaries
+  The organisation maintains clear definitions of role scope and inter-team boundaries
   that reduce unsolicited interventions — where individuals or teams from outside a role's
   defined scope direct, redirect, or interrupt work without authority. Intake and request
   pathways are defined, and escalation through appropriate channels is the established norm.
-  Boundary violations are recognized and addressed.
+  Boundary violations are recognised and addressed.
+
+  A useful distinction applies between matrix structures — where dual-reporting relationships
+  are explicitly documented and understood by all parties — and informal authority overrides,
+  where undocumented relationship-driven influence redirects work without formal sanction.
+  The former is a legitimate organisational design; the latter is a structural failure.
+
+  Job postings that require candidates to demonstrate "managing up," "navigating ambiguous
+  authority," or "working across organisational boundaries" as core skills are a relevant
+  inferred signal: they indicate that boundary violation is treated as an employee skill to
+  manage rather than an organisational problem to resolve.
 
 evidence_categories:
   - inferred

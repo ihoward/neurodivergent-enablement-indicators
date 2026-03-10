@@ -1,14 +1,24 @@
 id: NDI-yatlql
 normalized_name: "hiring patterns avoid bias toward sameness"
 
-title: Hiring patterns and signals avoid implicit bias toward behavioral sameness
+title: Hiring practices do not systematically screen out candidates for behavioural or stylistic differences
 
 description: |
-  The organization's hiring practices, job descriptions, and employer branding do not
-  systematically favor candidates who match a narrow behavioral or stylistic profile.
-  Observable signals of bias toward sameness — including homogeneous leadership representation,
-  job description language emphasizing personality over capability, and social-style screening
-  criteria — are actively monitored and addressed.
+  The organisation's hiring practices, job descriptions, and screening processes do not
+  systematically favour candidates who match a narrow behavioural or stylistic profile.
+  This indicator addresses the hiring process specifically — job descriptions, screening
+  criteria, and interview practices — rather than culture messaging, which is addressed
+  in NDI-g7i2ad.
+
+  Observable signals of bias toward sameness include job description language emphasising
+  personality traits, social style, or interpersonal characteristics as primary selection
+  criteria; terms such as "rockstar," "ninja," "culture champion," or "passionate" used
+  as primary descriptors without output-based role definitions; and homogeneous leadership
+  representation suggesting that hiring consistently converges on a narrow profile.
+
+  Structured interviewing — using consistent, criteria-based questions anchored to
+  observable outputs rather than unstructured conversation — is a positive design signal
+  that reduces the opportunity for social style bias to influence hiring decisions.
 
 evidence_categories:
   - inferred

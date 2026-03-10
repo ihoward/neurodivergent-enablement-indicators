@@ -1,13 +1,17 @@
 id: NDI-g4gu4o
 normalized_name: "administrative deadlines include reminders or grace mechanisms"
 
-title: Administrative deadlines include reminders or grace mechanisms
+title: Deadline-driven processes include reminders and avoid hard failure states
 
 description: |
-  The organization builds reminder systems and grace period mechanisms into deadline-driven
-  administrative processes such as benefits enrollment, compliance training, and performance
-  submissions. Employees are proactively notified before deadlines expire. Where feasible,
-  brief, low-friction extension pathways exist for employees who miss deadlines.
+  The organisation builds reminder systems and grace period mechanisms into deadline-driven
+  administrative processes such as benefits enrolment, compliance training, and performance
+  submissions. Employees are proactively notified before deadlines expire. Grace pathways
+  should be the default unless there is a compelling operational reason not to provide them.
+  Hard failure states — such as automatic loss of enrolment, immediate non-compliance status,
+  or permanent deadline loss — are a design choice that imposes unnecessary cost on employees.
+  They are not a technical inevitability and should be treated as failures of process design
+  where alternatives exist.
 
 evidence_categories:
   - inferred

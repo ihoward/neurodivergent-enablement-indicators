@@ -1,14 +1,21 @@
 id: NDI-vfm7gb
 normalized_name: "reliance on indicators grounded in proper methods"
 
-title: Organizational assessments rely on indicators grounded in methodologically sound evidence
+title: HR assessment tools are validated before use in consequential decisions
 
 description: |
-  The organization bases internal people-related assessments, indicators, and benchmarks
+  The organisation bases internal people-related assessments, indicators, and benchmarks
   on measures with documented methodological validity — including defined measurement
-  procedures, reliable operationalization, and awareness of limitations. Pseudoscientific
-  or unvalidated assessment instruments are not used in consequential HR or evaluation
-  contexts.
+  procedures, reliable operationalisation, and awareness of limitations. Unvalidated
+  assessment instruments are not used in consequential HR or evaluation contexts —
+  including hiring, promotion, or team composition decisions. MBTI, DISC, and similar
+  frameworks lack the peer-reviewed validity evidence required for consequential use;
+  their presence in hiring or performance decisions is a relevant negative signal.
+
+  A useful distinction applies: this indicator targets consequential use of unvalidated
+  tools, not their existence in optional development contexts. An organisation may use
+  such instruments for self-reflection or team discussion without this indicator being
+  triggered — the concern is their use as inputs to decisions affecting employees' careers.
 
 evidence_categories:
   - inferred

@@ -1,14 +1,16 @@
 id: NDI-g4e5z4
 normalized_name: "bias mitigation safeguards exist in evaluation"
 
-title: Bias mitigation safeguards are embedded in evaluation processes
+title: Evaluation processes include structural checks to reduce evaluator bias
 
 description: |
-  The organization has established structural safeguards in performance evaluation processes
-  that reduce the influence of evaluator bias. These may include calibration sessions,
-  structured rubrics with observable behavioral anchors, blind or anonymized review elements,
-  and documented rationale requirements. Safeguards are systematically applied, not optional
-  add-ons.
+  The organisation has established structural mechanisms specifically designed to reduce
+  the influence of evaluator bias in performance assessments. These include blind or
+  anonymised review elements where applicable, demographic outcome analysis of evaluation
+  results to identify systematic disparities, and evaluator training specifically addressing
+  bias in assessment. These mechanisms are distinct from general process structure: they
+  target the risk that evaluators apply different standards to employees based on how those
+  employees present, communicate, or are perceived, rather than on the quality of their work.
 
 evidence_categories:
   - inferred

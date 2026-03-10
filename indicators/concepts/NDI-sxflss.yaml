@@ -4,10 +4,21 @@ normalized_name: "crossfunctional overlap is actively governed"
 title: Cross-functional scope overlap is actively governed and resolved
 
 description: |
-  The organization identifies and actively manages areas of overlapping responsibility
+  The organisation identifies and actively manages areas of overlapping responsibility
   between teams, functions, or roles. Decision ownership at overlap points is explicitly
   defined and documented. Where overlap is intentional, the coordination mechanism is
-  specified. Unresolved or silently tolerated overlap is treated as an organizational debt.
+  specified. Unresolved or silently tolerated overlap is treated as an organisational debt.
+
+  This indicator addresses structural overlap at the organisational design level — it
+  concerns how the organisation defines and governs its functional boundaries. It is
+  distinct from day-to-day task coordination between individuals, which is addressed in
+  related indicators.
+
+  Frequent organisational restructuring without published governance mechanisms for managing
+  overlap during and after transitions is a relevant inferred signal. Organisations that
+  reorganise repeatedly without clarity on how overlap is resolved are likely to have
+  chronic boundary ambiguity. Annual report disclosures about "organisational simplification"
+  initiatives may indicate that the problem is known.
 
 evidence_categories:
   - inferred
