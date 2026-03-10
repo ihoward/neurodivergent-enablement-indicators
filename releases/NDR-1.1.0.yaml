@@ -1,0 +1,48 @@
+release_id: NDR-1.1.0
+taxonomy_id: NDT-1.0.0
+release_date: 2026-03-09
+status: published
+
+description: |
+  March 2026 indicator review. Six candidate indicators promoted to Standard status
+  following community review and evidence assessment. All 26 active indicators were
+  reviewed; titles, descriptions, and evidence criteria were refined for clarity and
+  neurodivergent-specific grounding. Eleven redundant candidate indicators were retired.
+  The framework now includes 13 Standard indicators across the six active taxonomy domains.
+
+indicators:
+  - NDI-2cdbgj-v1
+  - NDI-hgbbzn-v1
+  - NDI-nl3yam-v1
+  - NDI-ztoto2-v1
+  - NDI-eohpdo-v1
+  - NDI-rfdub6-v1
+  - NDI-fkbdsm-v1
+  - NDI-fumd3q-v1
+  - NDI-iuc2r5-v1
+  - NDI-mmp2kt-v1
+  - NDI-ow2t74-v1
+  - NDI-su335j-v1
+  - NDI-w2b3yw-v1
+
+changes_from_previous:
+  added: []
+  updated:
+    - NDI-2cdbgj-v1  # Title, description, and evidence criteria revised
+    - NDI-nl3yam-v1  # Title, description, and evidence criteria revised
+    - NDI-eohpdo-v1  # Title, description, and evidence criteria revised
+    - NDI-ztoto2-v1  # Title, description, and evidence criteria revised
+    - NDI-fkbdsm-v1  # Title, description, and evidence criteria revised
+  promoted:
+    - NDI-fumd3q-v1  # Promoted from Candidate to Standard
+    - NDI-iuc2r5-v1  # Promoted from Candidate to Standard
+    - NDI-mmp2kt-v1  # Promoted from Candidate to Standard
+    - NDI-ow2t74-v1  # Promoted from Candidate to Standard
+    - NDI-su335j-v1  # Promoted from Candidate to Standard
+    - NDI-w2b3yw-v1  # Promoted from Candidate to Standard
+  retired: []
+
+approved_by:
+  - name: atypical.business
+    role: Primary maintainer
+    date: 2026-03-09
