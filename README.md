@@ -90,8 +90,7 @@ nei/
 │   └── NDR-template.yaml     # Template for a standard release manifest
 │
 └── tools/
-    ├── id_generation.py      # Deterministic NDI ID generation
-    └── validation_scripts.py # Repository integrity validation
+    └── validation_scripts.py # Repository integrity validation (format and cross-reference checks)
 ```
 
 ---
@@ -154,15 +153,24 @@ The current standard release is [`NDR-1.0.0`](releases/NDR-1.0.0.yaml) — 7 ind
 - To **understand the framework**, read [`docs/framework.md`](docs/framework.md).
 - To **propose a new indicator or change**, read [`CONTRIBUTING.md`](CONTRIBUTING.md) and use the template in [`proposals/NDP-template.md`](proposals/NDP-template.md).
 - To **evaluate an organization against a release**, use the release manifest in [`releases/`](releases/).
-- To **generate a valid indicator ID**, use [`tools/id_generation.py`](tools/id_generation.py).
+- To **propose a new indicator**, open a pull request with a completed `proposals/NDP-xxxxx.md`. A maintainer will assign the canonical identifier — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
 ## Licensing
 
-The NEI taxonomy and indicators are licensed under **Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)**.
+NEI uses an open-core licensing model:
 
-Commercial use requires a license from atypical.business. See [`LICENSE`](LICENSE) for full terms.
+| Component | License |
+|---|---|
+| Indicator data, taxonomy CSVs, release manifests | CC0 1.0 — public domain, no restrictions |
+| Specification documents, governance, contributor guide | CC BY 4.0 — free use with attribution |
+| Reference implementation (nei-python) | Apache 2.0 — open source |
+
+The NEI identifier namespace (NDI-, NDR-, NDT-, NDP-) is a trademark of atypical.
+Identifier minting is a governed, proprietary operation.
+
+See [`LICENSE`](LICENSE) for full terms or visit [atypical.business/licensing/](https://atypical.business/licensing/).
 
 ---
 
@@ -172,4 +180,4 @@ See [`GOVERNANCE.md`](GOVERNANCE.md) for the proposal process, lifecycle definit
 
 ---
 
-*Maintained by [atypical.business](https://atypical.business) — licensing@atypical.business*
+*Maintained by [atypical](https://atypical.business) — licensing@atypical.business*

@@ -24,7 +24,7 @@ Closes #
 
 ## Checklist
 
-- [ ] Indicator ID generated using `python tools/id_generation.py`
+- [ ] New indicator name included in proposal (maintainer will assign the canonical NDI- identifier — minting is a governed process)
 - [ ] Indicator title is a noun phrase (not an imperative)
 - [ ] Description is 2–5 sentences, observable and neutral
 - [ ] At least one supporting citation included

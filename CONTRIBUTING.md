@@ -36,15 +36,16 @@ Assign your proposal a sequential ID: `NDP-xxxxx` (e.g., `NDP-00001`).
 
 Save your proposal as `proposals/NDP-xxxxx.md`.
 
-### Step 3 — Generate Indicator IDs (if applicable)
+### Step 3 — Request an Indicator ID (if applicable)
 
-If your proposal introduces a new indicator concept, generate a canonical ID using:
+If your proposal introduces a new indicator concept, you will need a canonical NDI- identifier assigned to it.
 
-```
-python tools/id_generation.py "your normalized indicator name"
-```
+**Identifier minting is a governed process managed by atypical** — the minting algorithm is not part of this public repository. To request an identifier for a new concept:
 
-Include the generated ID in your proposal.
+- Include a clearly worded proposed indicator name in your proposal file.
+- Open your pull request. A maintainer will assign and confirm the canonical NDI- identifier before the proposal advances to Candidate.
+
+Do not invent or guess identifier strings. IDs are deterministic and assigned by maintainers.
 
 ### Step 4 — Submit a Pull Request
 

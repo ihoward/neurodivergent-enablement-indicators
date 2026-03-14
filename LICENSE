@@ -1,53 +1,89 @@
 Neurodivergent Enablement Indicators (NEI)
-Copyright (c) 2026 atypical.biz
+Copyright (c) 2026 atypical
 
 ================================================================================
-CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL (CC BY-NC 4.0)
+LICENSING OVERVIEW — OPEN-CORE MODEL
 ================================================================================
 
-This work — including the NEI taxonomy, indicators, proposals, and associated
-documentation — is licensed under the Creative Commons
-Attribution-NonCommercial 4.0 International License.
-
-You are free to:
-
-  Share      — copy and redistribute the material in any medium or format.
-  Adapt      — remix, transform, and build upon the material.
-
-Under the following terms:
-
-  Attribution      — You must give appropriate credit to atypical.biz, provide
-                     a link to the license, and indicate if changes were made.
-                     You may do so in any reasonable manner, but not in any way
-                     that suggests atypical.biz endorses you or your use.
-
-  NonCommercial    — You may not use the material for commercial purposes
-                     without a separate commercial license from atypical.biz.
+NEI uses a layered open-core licensing model. Different components of the
+framework are published under different open licenses.
 
 ================================================================================
-COMMERCIAL USE
+DATA LAYER — CC0 1.0 Universal (Public Domain)
 ================================================================================
 
-Commercial use of the NEI framework requires a paid license from atypical.biz.
+The following components are released into the public domain under
+Creative Commons Zero v1.0 Universal (CC0 1.0):
 
-Commercial use includes but is not limited to:
+  - Indicator data files  (indicators/concepts/*.yaml, indicators/versions/*.yaml)
+  - Taxonomy data files   (taxonomy/nodes/*.csv, taxonomy/edges/*.csv)
+  - Release manifests     (releases/*.yaml)
 
-  - Consulting or advisory services that incorporate NEI indicators
-  - Software products or platforms that implement or reference NEI
-  - Paid benchmarking, scoring, or reporting services using NEI
-  - Certification or accreditation programs based on NEI
-  - Training programs that incorporate NEI indicators or taxonomy
+These files may be used, copied, modified, and distributed for any purpose,
+including commercial use, without restriction or attribution requirement.
 
-To obtain a commercial license, contact:
-
-  licensing@atypical.biz
+Full license text: https://creativecommons.org/publicdomain/zero/1.0/
 
 ================================================================================
-FULL LICENSE TEXT
+SPECIFICATION DOCUMENTS — CC BY 4.0
 ================================================================================
 
-The full legal text of CC BY-NC 4.0 is available at:
+The following specification and governance documents are published under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
 
-  https://creativecommons.org/licenses/by-nc/4.0/legalcode
+  - Framework documentation  (docs/framework.md)
+  - Methodology documentation (docs/methodology.md)
+  - Governance procedures    (GOVERNANCE.md)
+  - Contributor guide        (CONTRIBUTING.md)
+  - This README
+
+You are free to share and adapt these documents for any purpose, including
+commercially, provided you give appropriate credit to atypical and
+link to the license.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+REFERENCE IMPLEMENTATION — Apache 2.0
+================================================================================
+
+The nei-python reference implementation library is published under the
+Apache License, Version 2.0.
+
+Full license text: https://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+IDENTIFIER NAMESPACE — TRADEMARK
+================================================================================
+
+The NEI identifier namespace — including identifiers prefixed with NDI-, NDR-,
+NDT-, and NDP- — is a trademark of atypical.
+
+  - Internal use of NEI-prefixed identifiers by organizations evaluating their
+    own practices is free and requires no license.
+
+  - Commercial use of NEI-prefixed identifiers in products or services
+    (outside of internal practice evaluation) requires a license from
+    atypical.
+
+================================================================================
+PROPRIETARY COMMERCIAL SERVICES
+================================================================================
+
+The following services are proprietary to atypical and are not
+covered by the open licenses above. A commercial agreement with atypical
+is required to offer or access these services:
+
+  - Identifier minting (issuance of new NDI-/NDR-/NDT-/NDP- identifiers)
+  - Validation and certification services
+  - Participation in the atypical Verifier Program
+  - Custom scoring methodology validation and endorsement
+
+================================================================================
+CONTACT
+================================================================================
+
+For licensing enquiries: licensing@atypical.business
+https://atypical.business/licensing/
 
 ================================================================================
