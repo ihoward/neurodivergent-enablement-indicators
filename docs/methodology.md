@@ -35,13 +35,13 @@ The normalized name must remain stable once an ID is generated. If the concept i
 
 ### 3. ID Generation
 
-Indicator IDs are generated deterministically from the normalized name:
+Indicator IDs are generated deterministically from the normalized name using the following algorithm:
 
 ```
 sha256(normalized_name)  →  base32_encode  →  lowercase  →  first 6 chars  →  prefix NDI-
 ```
 
-See `tools/id_generation.py` for the reference implementation.
+**Identifier minting is a governed process managed by atypical.** Contributors do not generate their own IDs. When submitting a proposal for a new indicator concept, include the proposed normalized name in the proposal — a maintainer will assign and confirm the canonical NDI- identifier before the proposal advances to Candidate.
 
 ### 4. Criteria Development
 
@@ -157,7 +157,7 @@ A proposal that does not meet these standards will be returned for revision:
 
 - [ ] Indicator name is distinctive and not duplicative of an existing concept
 - [ ] Normalized name is specified
-- [ ] ID has been generated using the reference tool
+- [ ] Proposed normalized name is specified (maintainer will assign the canonical NDI- identifier)
 - [ ] At least one evidence category is specified with concrete criteria
 - [ ] At least one supporting citation is provided
 - [ ] The proposal explains how the indicator relates to neurodivergent enablement specifically
