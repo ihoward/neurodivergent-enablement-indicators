@@ -5,10 +5,16 @@ NDT-znf2v5,domain,Organizational Clarity
 NDT-xyrxwd,domain,Sensory Environment
 NDT-6zfsxi,domain,Governance and Justice
 NDT-dxjmnq,domain,Support Infrastructure
-NDI-2cdbgj,indicator,Administrative processes are simplified and accessible
-NDI-hgbbzn,indicator,Performance evaluation is based on output rather than style
-NDI-nl3yam,indicator,Roles and responsibilities are clearly and explicitly defined
-NDI-ztoto2,indicator,Workplace noise is actively managed and minimized
+NDI-2cdbgj,indicator,"Administrative complexity is borne by specialist functions, not front-line employees"
+NDI-hgbbzn,indicator,"Performance evaluation systems assess outputs, not style or behavioural conformance"
+NDI-nl3yam,indicator,Role responsibilities and boundaries are clearly and explicitly defined
+NDI-ztoto2,indicator,Workplace noise and sensory conditions are actively managed
 NDI-eohpdo,indicator,Manager transitions are treated as significant environmental changes
-NDI-rfdub6,indicator,Coaching and support are available without requiring neurodivergent disclosure
+NDI-rfdub6,indicator,Support and accommodations are accessible without requiring neurodivergent disclosure
 NDI-fkbdsm,indicator,Investigations and disciplinary processes demonstrate procedural fairness
+NDI-fumd3q,indicator,"Performance evaluations are structured, evidence-based, and provide actionable feedback"
+NDI-iuc2r5,indicator,Defined work intake pathways exist and are consistently respected
+NDI-mmp2kt,indicator,Material changes are communicated with advance notice and planning rhythms are stable
+NDI-ow2t74,indicator,Priorities are set through a defined process and communicated explicitly to employees
+NDI-su335j,indicator,Decision authority is explicit where formal power and informal influence diverge
+NDI-w2b3yw,indicator,A consistent primary workspace is available to employees who need one

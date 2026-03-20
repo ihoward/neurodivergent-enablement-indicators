@@ -1,6 +1,6 @@
 release_id: NDR-1.1.0
 taxonomy_id: NDT-1.0.0
-release_date: 2026-03-09
+release_date: 2026-03-20
 status: published
 
 description: |
@@ -45,4 +45,4 @@ changes_from_previous:
 approved_by:
   - name: atypical.business
     role: Primary maintainer
-    date: 2026-03-09
+    date: 2026-03-20

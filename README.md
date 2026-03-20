@@ -144,7 +144,9 @@ A Standard release manifest must reference **only Standard indicator versions** 
 
 The current candidate release is [`NDR-0.1.0C-NDP-seed`](releases/NDR-0.1.0C-NDP-seed.yaml) — 30 indicators across 15 domains.
 
-The current standard release is [`NDR-1.0.0`](releases/NDR-1.0.0.yaml) — 7 indicators across 6 domains.
+Current standard releases:
+- [`NDR-1.1.0`](releases/NDR-1.1.0.yaml) — 13 indicators (latest)
+- [`NDR-1.0.0`](releases/NDR-1.0.0.yaml) — 7 indicators across 6 domains (initial)
 
 ---
 
