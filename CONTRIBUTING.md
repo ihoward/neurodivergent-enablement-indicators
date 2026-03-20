@@ -106,4 +106,4 @@ This project follows a standard contributor code of conduct. Be respectful, spec
 
 ---
 
-*Questions? Contact us at [licensing@atypical.business](mailto:licensing@atypical.business)*
+*Questions? Contact us at [atypical.business/licensing/](https://atypical.business/licensing/#contact)*
