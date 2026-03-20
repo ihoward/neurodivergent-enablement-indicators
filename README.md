@@ -180,4 +180,4 @@ See [`GOVERNANCE.md`](GOVERNANCE.md) for the proposal process, lifecycle definit
 
 ---
 
-*Maintained by [atypical](https://atypical.business) — licensing@atypical.business*
+*Maintained by [atypical](https://atypical.business) — [atypical.business/licensing/](https://atypical.business/licensing/)*
